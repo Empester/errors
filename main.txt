@@ -1,340 +1,393 @@
-Dependency resolution took 69.25 s (backtrack: 12/20).
+Local copy of remote index is up-to-date and will be used.
+Calculating dependencies        ... done!                               
+Dependency resolution took 143.99 s (backtrack: 12/20).
 
-[binary     U  ] sys-apps/hwdata-0.399-1::gentoo [0.398::gentoo] 1,620 KiB
-[binary     U  ] app-text/iso-codes-4.18.0-1::gentoo [4.17.0::gentoo] 3,040 KiB
-[binary     U  ] dev-qt/qttranslations-6.9.3-1:6/6.9.3::gentoo [6.9.2:6/6.9.2::gentoo] USE="-custom-cflags" 1,890 KiB
-[binary     U  ] media-fonts/noto-emoji-20250912-1::gentoo [20250618::gentoo] USE="X -icons" 11,860 KiB
-[ebuild     U  ] x11-terms/kitty-shell-integration-0.43.1::gentoo [0.42.2::gentoo] 12,458 KiB
-[binary  N     ] dev-cpp/fast_float-8.0.2-2::gentoo  USE="-test" 80 KiB
-[ebuild     U  ] dev-libs/tree-sitter-c-0.24.1::gentoo [0.23.0::gentoo] USE="-debug -python -test" PYTHON_TARGETS="python3_13 -python3_11 -python3_12 -python3_14" 371 KiB
-[ebuild     U  ] dev-libs/tree-sitter-lua-0.4.0::gentoo [0.3.0::gentoo] USE="-debug -python -test" PYTHON_TARGETS="python3_13 -python3_11 -python3_12 -python3_14" 63 KiB
-[ebuild     U  ] dev-libs/tree-sitter-query-0.6.2::gentoo [0.5.0::gentoo] USE="-debug -python -test" PYTHON_TARGETS="python3_13 -python3_11 -python3_12 -python3_14" 43 KiB
-[ebuild     U  ] dev-libs/tree-sitter-vim-0.7.0::gentoo [0.5.0::gentoo] USE="-debug -python -test" PYTHON_TARGETS="python3_13 -python3_11 -python3_12 -python3_14" 357 KiB
-[binary     U  ] dev-libs/plasma-wayland-protocols-1.19.0-1::gentoo [1.18.0::gentoo] USE="-test" 70 KiB
-[ebuild     U  ] sys-firmware/sof-firmware-2025.05.1::gentoo [2025.01.1::gentoo] USE="-tools*" 11,561 KiB
-[binary  N     ] virtual/minizip-1.3.1-1:0/1::gentoo  USE="-static-libs" ABI_X86="(64) -32 (-x32)" 30 KiB
-[binary  N     ] kde-frameworks/ksecretd-services-6.18.0-1:6::gentoo  USE="systemd" 40 KiB
-[ebuild     U  ] x11-terms/kitty-terminfo-0.43.1::gentoo [0.42.2::gentoo] 0 KiB
-[ebuild     U  ] dev-libs/libpcre2-10.46:0/3::gentoo [10.45:0/3::gentoo] USE="bzip2 jit pcre16 pcre32 readline unicode zlib -libedit -static-libs -valgrind -verify-sig" ABI_X86="32 (64) (-x32)" 1,988 KiB
-[binary     U  ] app-office/libreoffice-l10n-25.2.6.2-1::gentoo [25.2.5.2::gentoo] USE="-offlinehelp" L10N="-af -am -ar -as -ast -be -bg -bn -bn-IN -bo -br -brx -bs -ca -ca-valencia -ckb -cs -cy -da -de -dgo -dsb -dz -el -en -en-GB -en-ZA -eo -es -et -eu -fa -fi -fr -fur -fy -ga -gd -gl -gu -gug -he -hi -hr -hsb -hu -id -is -it -ja -ka -kab -kk -kmr-Latn -kn -ko -kok -ks -lb -lo -lt -lv -mai -mk -ml -mn -mni -mr -my -nb -ne -nl -nn -nr -nso -oc -om -or -pa -pl -pt -pt-BR -ro -ru -rw -sa -sat -sd -si -sid -sk -sl -sq -sr -sr-Latn -ss -st -sv -sw-TZ -szl -ta -te -tg -th -tn -tr -ts -tt -ug -uk -uz -ve -vec -vi -xh -zh-CN -zh-TW -zu" 20 KiB
-[binary     U  ] sys-apps/locale-gen-3.9-r1-1::gentoo [3.8::gentoo] 30 KiB
-[binary     U  ] app-shells/bash-5.3_p3-r3-1::gentoo [5.3_p3-r2::gentoo] USE="net nls (readline) -afs -bashlogger -examples -mem-scramble -pgo -plugins -verify-sig" 1,750 KiB
-[binary     U  ] sys-apps/iproute2-6.17.0-1::gentoo [6.16.0::gentoo] USE="iptables -atm -berkdb -bpf -caps -elf -minimal -nfs (-selinux)" 1,070 KiB
-[binary   R    ] app-misc/pax-utils-1.3.8-6::gentoo  USE="-caps -man -python (-seccomp) -test" PYTHON_SINGLE_TARGET="python3_13 -python3_11 -python3_12 -python3_14%" 110 KiB
-[binary     U  ] dev-build/make-4.4.1-r101-1::gentoo [4.4.1-r100::gentoo] USE="nls -doc -guile -static -test -verify-sig" GUILE_SINGLE_TARGET="3-0 -2-2" 540 KiB
-[ebuild     U  ] dev-libs/nss-3.112.2::gentoo [3.112.1::gentoo] USE="utils -cacert -test -test-full" ABI_X86="32 (64) (-x32)" CPU_FLAGS_X86="avx2 sse3" 74,828 KiB
-[binary     U  ] dev-libs/tree-sitter-0.25.8-1:0/0.25.8::gentoo [0.25.6:0/0.25.6::gentoo] 120 KiB
-[binary     U  ] net-libs/libtirpc-1.3.7-1:0/3::gentoo [1.3.6:0/3::gentoo] USE="-kerberos -static-libs" ABI_X86="(64) -32 (-x32)" 170 KiB
-[binary   R    ] sys-libs/libcap-ng-0.8.5-18::gentoo  USE="-python -static-libs" PYTHON_TARGETS="python3_13 -python3_11 -python3_12 -python3_14%" 80 KiB
-[binary     U  ] dev-lang/go-1.25.3-1:0/1.25.3::gentoo [1.24.6:0/1.24.6::gentoo] CPU_FLAGS_X86="sse2" 32,950 KiB
-[binary     U  ] dev-libs/newt-0.52.25-r2-1::gentoo [0.52.25-r1::gentoo] USE="gpm nls -python -tcl" PYTHON_TARGETS="python3_13 -python3_11 -python3_12 -python3_14%" 120 KiB
-[binary     U  ] dev-lang/lua-5.4.8-1:5.4::gentoo [5.4.6:5.4::gentoo] USE="deprecated readline" 260 KiB
-[binary  N     ] dev-cpp/highway-1.2.0-2::gentoo  USE="-test" ABI_X86="(64) -32 (-x32)" 1,080 KiB
-[binary     U  ] net-libs/libssh-0.11.3-3:0/4::gentoo [0.11.2:0/4::gentoo] USE="sftp zlib -debug -doc -examples -gssapi -mbedtls -pcap -server -static-libs -test" ABI_X86="(64) -32 (-x32)" 230 KiB
-[binary     U  ] dev-libs/inih-62-1::gentoo [60::gentoo] USE="-test%" ABI_X86="(64) -32 (-x32)" 60 KiB
-[binary  N     ] dev-util/patchelf-0.18.0-7::gentoo  0 KiB
-[binary     U  ] games-engines/box2d-2.4.2-r1-1::gentoo [2.4.2::gentoo] USE="-doc -test" 160 KiB
-[binary     U  ] dev-libs/libixion-0.19.0-r2-1:0/0.18::gentoo [0.19.0-r1:0/0.18::gentoo] USE="-debug -python" PYTHON_SINGLE_TARGET="python3_13 -python3_11 -python3_12 -python3_14%" 490 KiB
-[binary     U  ] gui-libs/vte-common-0.80.4-1:2.91::gentoo [0.78.5:2.91::gentoo] USE="systemd" 50 KiB
-[binary     U  ] dev-libs/tree-sitter-markdown-0.5.0-1::gentoo [0.4.1::gentoo] USE="-test" 70 KiB
-[binary     U  ] dev-libs/tree-sitter-vimdoc-4.0.0-1::gentoo [3.0.0::gentoo] USE="-debug -python -test" PYTHON_TARGETS="python3_13 -python3_11 -python3_12 -python3_14" 60 KiB
-[binary   R    ] media-gfx/exiv2-0.28.5-5:0/0.28::gentoo  USE="bmff jpegxl* nls png xmp -doc -examples -test -webready" ABI_X86="(64) -32 (-x32)" 2,750 KiB
-[binary     U  ] dev-libs/liborcus-0.19.2-r1-5:0/0.18::gentoo [0.19.2:0/0.18::gentoo] USE="spreadsheet-model -python -test -tools" PYTHON_SINGLE_TARGET="python3_13 -python3_11 -python3_12 -python3_14%" 920 KiB
-[binary     U  ] dev-perl/Net-HTTP-6.240.0-1::gentoo [6.230.0::gentoo] USE="-minimal -test" PERL_FEATURES="(-debug) -ithreads -quadmath" 40 KiB
-[ebuild     U  ] media-libs/freetype-2.14.1-r1:2::gentoo [2.13.3:2::gentoo] USE="X adobe-cff bzip2 cleartype-hinting harfbuzz* png svg -brotli -debug -doc -fontforge -static-libs -utils" ABI_X86="32 (64) (-x32)" 2,603 KiB
-[ebuild     U  ] sys-apps/util-linux-2.41.2::gentoo [2.41.1-r1::gentoo] USE="cramfs hardlink logger ncurses nls pam readline su suid systemd udev (unicode) -audit -build -caps -cryptsetup -fdformat -kill -magic -python (-rtas) (-selinux) -slang -static-libs -test -tty-helpers -uuidd -verify-sig" ABI_X86="32 (64) (-x32)" PYTHON_TARGETS="python3_13 -python3_11 -python3_12 -python3_14" 9,388 KiB
-[ebuild     U  ] media-libs/fontconfig-2.17.1:1.0::gentoo [2.16.2-r1:1.0::gentoo] USE="nls -doc -test" ABI_X86="32 (64) (-x32)" 1,296 KiB
-[binary     U  ] dev-libs/libxml2-2.14.6-14:2/16::gentoo [2.13.9:2/2::gentoo] USE="icu python readline -static-libs -test (-examples%) (-lzma%)" ABI_X86="32 (64) (-x32)" PYTHON_TARGETS="python3_13 -python3_11 -python3_12 -python3_14" 1,450 KiB
-[binary     U  ] dev-python/more-itertools-10.8.0-1::gentoo [10.7.0::gentoo] USE="-doc" PYTHON_TARGETS="python3_13 (-pypy3_11) -python3_11 -python3_12 (-python3_13t) -python3_14 (-python3_14t)" 160 KiB
-[binary     U  ] dev-python/trove-classifiers-2025.9.11.17-1::gentoo [2025.8.26.11::gentoo] USE="-test -verify-provenance%" PYTHON_TARGETS="python3_13 (-pypy3_11) -python3_11 -python3_12 (-python3_13t) -python3_14 (-python3_14t)" 60 KiB
-[binary     U  ] sys-apps/kbd-2.9.0-3::gentoo [2.8.0::gentoo] USE="bzip2%* nls pam zlib%* -lzma% (-selinux) -test -zstd%" 1,210 KiB
-[binary     U  ] dev-util/glib-utils-2.84.4-1::gentoo [2.84.3::gentoo] PYTHON_SINGLE_TARGET="python3_13 -python3_11 -python3_12 -python3_14" 60 KiB
-[binary     U  ] dev-python/pyparsing-3.2.5-1::gentoo [3.2.3::gentoo] USE="-examples -test" PYTHON_TARGETS="python3_13 (-pypy3_11) -python3_11 -python3_12 -python3_14" 330 KiB
-[binary     U  ] dev-python/pyyaml-6.0.3-1::gentoo [6.0.2::gentoo] USE="-debug -examples -test" PYTHON_TARGETS="python3_13 (-pypy3_11) -python3_11 -python3_12 -python3_14%" 220 KiB
-[binary     U  ] dev-python/markupsafe-3.0.3-1::gentoo [3.0.2::gentoo] USE="native-extensions -debug -test" PYTHON_TARGETS="python3_13 (-pypy3_11) -python3_11 -python3_12 (-python3_13t) -python3_14 (-python3_14t)" 60 KiB
-[binary     U  ] dev-python/psutil-7.1.0-1::gentoo [7.0.0::gentoo] USE="-debug -test" PYTHON_TARGETS="python3_13 (-pypy3_11) -python3_11 -python3_12 (-python3_13t) -python3_14 (-python3_14t)" 540 KiB
-[binary   R    ] dev-debug/gdb-16.3-12::gentoo  USE="cet nls python server xml -babeltrace -debuginfod -guile -lzma -multitarget (-rocm) -sim -source-highlight -test -vanilla -xxhash -zstd" GUILE_SINGLE_TARGET="3-0 -2-2" PYTHON_SINGLE_TARGET="python3_13 -python3_11 -python3_12 -python3_14%" 4,530 KiB
-[ebuild     U  ] net-libs/gnutls-3.8.10-r1:0/30.30::gentoo [3.8.10:0/30.30::gentoo] USE="cxx idn nls openssl pkcs11 tls-heartbeat tools zlib -brotli -dane -doc -examples (-sslv2) (-sslv3) -static-libs -test (-test-full) -verify-sig -zstd" ABI_X86="32 (64) (-x32)" 0 KiB
-[binary     U  ] sys-auth/pambase-20251013-1::gentoo [20250826::gentoo] USE="nullok passwdqc sha512 systemd -caps -debug (-elogind) -gnome-keyring -homed -minimal -mktemp -pam_krb5 (-pam_ssh) -pwhistory -pwquality -securetty (-selinux) -sssd -yescrypt" 40 KiB
-[ebuild     U  ] dev-libs/elfutils-0.193-r1::gentoo [0.193::gentoo] USE="bzip2 lzma nls utils -debuginfod -stacktrace -static-libs -test -valgrind -verify-sig -zstd" ABI_X86="32 (64) (-x32)" 0 KiB
-[binary     U  ] dev-python/lxml-6.0.2-1::gentoo [6.0.1::gentoo] USE="threads -debug -doc -examples -test" PYTHON_TARGETS="python3_13 (-pypy3_11) -python3_11 -python3_12 -python3_14" 1,410 KiB
-[binary     U  ] dev-python/pycparser-2.23-1::gentoo [2.22::gentoo] USE="-test" PYTHON_TARGETS="python3_13 (-pypy3_11) -python3_11 -python3_12 (-python3_13t) -python3_14 (-python3_14t)" 180 KiB
-[binary     U  ] kde-frameworks/extra-cmake-modules-6.18.0-r1-1::gentoo [6.16.0::gentoo] USE="-doc -test" 170 KiB
-[binary   R    ] dev-python/mako-1.3.10-6::gentoo  USE="-doc -test" PYTHON_TARGETS="python3_13 (-pypy3_11) -python3_11 -python3_12 -python3_14%" 210 KiB
-[binary     U  ] dev-build/cmake-4.1.2-r1-3::gentoo [3.31.9-r1::gentoo] USE="ncurses -dap -doc -gui -test -verify-sig" 14,550 KiB
-[binary     U  ] dev-python/rdflib-7.2.1-1::gentoo [7.1.4::gentoo] USE="-examples -sqlite -test" PYTHON_TARGETS="python3_13 -python3_11 -python3_12" 910 KiB
-[binary     U  ] sys-apps/groff-1.23.0-r1-1::gentoo [1.23.0::gentoo] USE="X -examples -uchardet" 9,180 KiB
-[ebuild     U  ] media-gfx/graphite2-1.3.14_p20210810-r5::gentoo [1.3.14_p20210810-r3::gentoo] USE="-perl -test" ABI_X86="32 (64) (-x32)" PERL_FEATURES="(-debug) -ithreads% -quadmath%" 0 KiB
-[ebuild   R    ] media-libs/lilv-0.24.26::gentoo  USE="-doc -python -test -tools" ABI_X86="(64) -32 (-x32)" PYTHON_SINGLE_TARGET="python3_13 -python3_11 -python3_12 (-python3_13t) -python3_14%" 0 KiB
-[binary     U  ] dev-python/setuptools-scm-9.2.0-1::gentoo [8.3.1::gentoo] USE="-test" PYTHON_TARGETS="python3_13 (-pypy3_11) -python3_11 -python3_12 (-python3_13t) -python3_14 (-python3_14t)" 150 KiB
-[ebuild     U  ] dev-python/emoji-2.15.0::gentoo [2.14.1::gentoo] USE="-test" PYTHON_TARGETS="python3_13 -python3_11 -python3_12 -python3_14" 670 KiB
-[ebuild     U  ] dev-python/protobuf-6.32.1-r1:0/6.32.1::gentoo [6.31.1:0/6.31.1::gentoo] USE="-debug -test" PYTHON_TARGETS="python3_13 -python3_11 -python3_12 -python3_14" 431 KiB
-[binary     U  ] dev-python/tree-sitter-0.25.1-r1-4::gentoo [0.25.1::gentoo] USE="-debug -test" PYTHON_TARGETS="python3_13 -python3_11 -python3_12 -python3_14" 80 KiB
-[ebuild     U  ] dev-python/secretstorage-3.4.0::gentoo [3.3.3::gentoo] USE="-doc -test -verify-provenance%" PYTHON_TARGETS="python3_13 (-pypy3_11) -python3_11 -python3_12 -python3_14" 20 KiB
-[binary     U  ] app-crypt/gnupg-2.4.8-r1-5::gentoo [2.4.8::gentoo] USE="alternatives%* bzip2 nls readline smartcard ssl tofu usb -doc -ldap (-selinux) -test -tools -tpm -user-socket (-verify-sig) -wks-server" 3,030 KiB
-[binary  N     ] app-alternatives/gpg-0-r2-2::gentoo  USE="nls reference ssl" 20 KiB
-[binary     U  ] app-portage/getuto-1.15-r1-1::gentoo [1.15::gentoo] USE="-test" 20 KiB
-[binary     U  ] sys-apps/smartmontools-7.5-r1-1::gentoo [7.5::gentoo] USE="daemon systemd update-drivedb -caps (-selinux) -static" 630 KiB
-[binary     U  ] dev-vcs/git-2.51.0-7::gentoo [2.49.1::gentoo] USE="curl gpg iconv nls pcre perl safe-directory webdav -cgi -cvs -doc -highlight -keyring -perforce (-selinux) -subversion -test -tk -xinetd (-mediawiki%)" PYTHON_SINGLE_TARGET="python3_13 -python3_11 -python3_12 -python3_14" 7,500 KiB
-[binary     U  ] sys-apps/portage-3.0.69.3-r2-1::gentoo [3.0.68::gentoo] USE="(ipc) native-extensions rsync-verify xattr -apidoc -build -doc -gentoo-dev (-selinux) -test" PYTHON_TARGETS="python3_13 (-pypy3_11) -python3_11 -python3_12" 2,760 KiB
-[binary   R    ] llvm-core/clang-20.1.8-22:20/20.1::gentoo  USE="extra (pie) static-analyzer xml -debug -doc (-ieee-long-double) -test -verify-sig" ABI_X86="32* (64) (-x32)" LLVM_TARGETS="(AArch64) (AMDGPU) (ARM) (AVR) (BPF) (Hexagon) (Lanai) (LoongArch) (MSP430) (Mips) (NVPTX) (PowerPC) (RISCV) (SPIRV) (Sparc) (SystemZ) (VE) (WebAssembly) (X86) (XCore) -ARC -CSKY -DirectX -M68k -Xtensa" PYTHON_SINGLE_TARGET="python3_13 -python3_11 -python3_12 -python3_14" 79,820 KiB
-[binary     U  ] dev-util/mesa_clc-25.1.9-2::gentoo [25.1.7::gentoo] USE="-debug" LLVM_SLOT="20 -18 -19" VIDEO_CARDS="-asahi -panfrost" 790 KiB
-[ebuild     U  ] media-libs/mesa-25.1.9::gentoo [25.1.7::gentoo] USE="X llvm (opengl) proprietary-codecs vulkan wayland zstd -d3d9 -debug -lm-sensors -opencl -test -unwind -vaapi -valgrind -vdpau -xa" ABI_X86="32 (64) (-x32)" CPU_FLAGS_X86="sse2" LLVM_SLOT="20 -18 -19" VIDEO_CARDS="intel nouveau radeon radeonsi -asahi -d3d12 (-freedreno) -lavapipe (-lima) -nvk (-panfrost) -r300 -r600 (-v3d) (-vc4) -virgl (-vivante) -vmware -zink" 46,114 KiB
-[binary  NS    ] sys-kernel/gentoo-kernel-6.12.47-1:6.12.47::gentoo [6.16.9:6.16.9::gentoo] USE="debug initramfs strip -experimental -generic-uki -hardened -modules-compress -modules-sign -savedconfig -secureboot -test -verify-sig" 226,130 KiB
-[binary     UD ] virtual/dist-kernel-6.12.47-1:0/6.12.47::gentoo [6.16.9:0/6.16.9::gentoo] 20 KiB
-[binary     U  ] app-crypt/gcr-3.41.2-r2-1:0/1::gentoo [3.41.2-r1:0/1::gentoo] USE="X gtk introspection systemd vala wayland -gtk-doc -test" 720 KiB
-[binary     U  ] app-crypt/gcr-4.4.0.1-r1-1:4/gcr-4.4-gck-2.2::gentoo [4.3.1:4/gcr-4.4-gck-2.2::gentoo] USE="gtk introspection systemd vala -gnutls -gtk-doc -test" 560 KiB
-[binary     U  ] virtual/secret-service-0-r1-1::gentoo [0::gentoo] 20 KiB
-[binary     U  ] app-emulation/libvirt-11.6.0-r2-1:0/11.6.0::gentoo [11.1.0-r1:0/11.1.0::gentoo] USE="caps libvirtd nls (policykit) qemu udev virt-network -apparmor -audit -bash-completion -dtrace -firewalld -fuse -glusterfs -iscsi -iscsi-direct -libssh -libssh2 -lvm -lxc -nbd -nfs -numa -parted -pcap -rbd -sasl (-selinux) -test -verify-sig -virtiofsd -virtualbox -wireshark-plugins -xen -zfs" 8,360 KiB
-[binary     U  ] dev-python/libvirt-python-11.6.0-1::gentoo [11.1.0::gentoo] USE="-debug -examples -test -verify-sig" PYTHON_TARGETS="python3_13 -python3_11 -python3_12 -python3_14%" 350 KiB
-[binary  N     ] app-emulation/libvirt-glib-5.0.0-r1-7::gentoo  USE="introspection vala -gtk-doc -test" 270 KiB
-[binary     U  ] dev-libs/appstream-1.0.6-3:0/5::gentoo [1.0.4-r1:0/5::gentoo] USE="introspection qt6 systemd -apt -compose -doc -test -vala" 980 KiB
-[binary   R    ] dev-libs/gobject-introspection-1.84.0-r1-4::gentoo  USE="-doctool -gtk-doc -test" PYTHON_SINGLE_TARGET="python3_13 -python3_11 -python3_12 -python3_14%" 640 KiB
-[binary     U  ] dev-libs/kirigami-addons-1.10.0-1:6::gentoo [1.9.0:6::gentoo] USE="-debug -test" 2,030 KiB
-[binary     U  ] dev-libs/libical-3.0.20-r2-1:0/3::gentoo [3.0.20-r1:0/3::gentoo] USE="glib introspection -doc -examples -static-libs -test -vala" 530 KiB
-[binary     U  ] dev-libs/qgpgme-2.0.0-r2-1:0/7::gentoo [2.0.0-r1:0/7::gentoo] USE="-test -verify-sig" 410 KiB
-[binary     U  ] dev-python/docutils-0.22.2-1::gentoo [0.22::gentoo] PYTHON_TARGETS="python3_13 (-pypy3_11) -python3_11 -python3_12 -python3_14" 2,140 KiB
-[ebuild     U  ] dev-libs/glib-2.84.4:2::gentoo [2.84.3:2::gentoo] USE="dbus elf introspection (mime) xattr -debug -doc (-selinux) -static-libs -sysprof -systemtap -test -utils" ABI_X86="32 (64) (-x32)" 5,487 KiB
-[binary     U  ] x11-misc/shared-mime-info-2.4-r3-1::gentoo [2.4-r2::gentoo] USE="-test" 600 KiB
-[ebuild     U  ] dev-libs/json-glib-1.10.8::gentoo [1.10.6::gentoo] USE="introspection nls -gtk-doc -test" ABI_X86="32 (64) (-x32)" 1,264 KiB
-[binary     U  ] dev-util/gdbus-codegen-2.84.4-1::gentoo [2.84.3::gentoo] PYTHON_SINGLE_TARGET="python3_13 -python3_11 -python3_12 -python3_14" 150 KiB
+[binary     U  ] sys-apps/hwdata-0.399-1 [0.398]
+[ebuild     U  ] x11-terms/kitty-shell-integration-0.43.1 [0.42.2]
+[ebuild     U  ] dev-libs/tree-sitter-c-0.24.1 [0.23.0]
+[ebuild     U  ] dev-libs/tree-sitter-lua-0.4.0 [0.3.0]
+[ebuild     U  ] dev-libs/tree-sitter-query-0.6.2 [0.5.0]
+[ebuild     U  ] dev-libs/tree-sitter-vim-0.7.0 [0.5.0]
+[ebuild     U  ] sys-firmware/sof-firmware-2025.05.1 [2025.01.1] USE="-tools*" 
+[binary  N     ] virtual/minizip-1.3.1-1  USE="-static-libs" ABI_X86="(64) -32 (-x32)" 
+[binary     U  ] app-text/iso-codes-4.18.0-1 [4.17.0]
+[binary     U  ] dev-qt/qttranslations-6.9.3-1 [6.9.2]
+[binary     U  ] dev-libs/plasma-wayland-protocols-1.19.0-1 [1.18.0]
+[binary     U  ] media-fonts/noto-emoji-20250912-1 [20250618]
+[binary  N     ] dev-cpp/fast_float-8.0.2-2  USE="-test" 
+[binary  N     ] kde-frameworks/ksecretd-services-6.18.0-1  USE="systemd" 
+[ebuild     U  ] x11-terms/kitty-terminfo-0.43.1 [0.42.2]
+[ebuild     U  ] dev-libs/libpcre2-10.46 [10.45]
+[binary     U  ] app-office/libreoffice-l10n-25.2.6.2-1 [25.2.5.2]
+[binary     U  ] sys-apps/locale-gen-3.9-r1-1 [3.8]
+[binary     U  ] app-shells/bash-5.3_p3-r3-1 [5.3_p3-r2]
+[ebuild     U  ] dev-libs/nss-3.112.2 [3.112.1]
+[binary     U  ] net-libs/libtirpc-1.3.7-1 [1.3.6]
+[binary     U  ] dev-libs/tree-sitter-0.25.8-1 [0.25.6]
+[binary     U  ] dev-lang/lua-5.4.8-1 [5.4.6]
+[binary  N     ] app-arch/rpm2targz-2021.03.16-1 
+[binary     U  ] dev-libs/tree-sitter-markdown-0.5.0-1 [0.4.1]
+[binary     U  ] dev-libs/tree-sitter-vimdoc-4.0.0-1 [3.0.0]
+[binary  N     ] dev-perl/Archive-Zip-1.680.0-4  USE="-examples -test" PERL_FEATURES="(-debug) -ithreads -quadmath" 
+[binary   R    ] app-misc/pax-utils-1.3.8-6  PYTHON_SINGLE_TARGET="-python3_14%" 
+[binary     U  ] sys-apps/iproute2-6.17.0-1 [6.16.0]
+[binary     U  ] dev-build/make-4.4.1-r101-1 [4.4.1-r100]
+[binary     U  ] dev-perl/Net-HTTP-6.240.0-1 [6.230.0]
+[binary   R    ] sys-libs/libcap-ng-0.8.5-18  PYTHON_TARGETS="-python3_14%" 
+[binary     U  ] sys-libs/binutils-libs-2.45-r1-3 [2.44-r2]
+[binary     U  ] dev-libs/newt-0.52.25-r2-1 [0.52.25-r1] PYTHON_TARGETS="-python3_14%" 
+[binary  N     ] dev-cpp/highway-1.2.0-2  USE="-test" ABI_X86="(64) -32 (-x32)" 
+[binary     U  ] net-libs/libssh-0.11.3-3 [0.11.2]
+[binary     U  ] dev-libs/inih-62-1 [60] USE="-test%" 
+[binary   R    ] media-gfx/exiv2-0.28.5-5  USE="jpegxl*" 
+[binary  N     ] dev-util/patchelf-0.18.0-7 
+[binary     U  ] games-engines/box2d-2.4.2-r1-1 [2.4.2]
+[binary  N     ] dev-util/cppunit-1.15.1_p20240106-2  USE="-doc -examples" ABI_X86="(64) -32 (-x32)" 
+[binary     U  ] dev-libs/libixion-0.19.0-r2-1 [0.19.0-r1] PYTHON_SINGLE_TARGET="-python3_14%" 
+[binary     U  ] dev-libs/liborcus-0.19.2-r1-5 [0.19.2] PYTHON_SINGLE_TARGET="-python3_14%" 
+[binary     U  ] gui-libs/vte-common-0.80.4-1 [0.78.5]
+[binary     U  ] dev-ruby/rake-13.3.0-1 [13.2.1]
+[binary     U  ] dev-ruby/rexml-3.4.2-1 [3.4.1]
+[binary     U  ] dev-ruby/json-2.12.2-1 [2.10.2]
+[binary     U  ] dev-ruby/net-imap-0.4.22-1 [0.4.20]
+[ebuild     U  ] media-libs/freetype-2.14.1-r1 [2.13.3] USE="harfbuzz*" 
+[ebuild     U  ] sys-apps/util-linux-2.41.2 [2.41.1-r1]
+[ebuild     U  ] media-libs/fontconfig-2.17.1 [2.16.2-r1]
+[binary     U  ] dev-libs/libxml2-2.14.6-14 [2.13.9]
+[binary   R    ] x11-base/xcb-proto-1.17.0-13  PYTHON_TARGETS="-python3_14%" 
+[ebuild     U  ] dev-libs/elfutils-0.193-r1 [0.193]
+[binary     U  ] dev-build/cmake-4.1.2-r1-3 [3.31.9-r1]
+[ebuild  NS    ] dev-lang/rust-bin-1.89.0 [1.88.0]
+[binary     U  ] sys-apps/groff-1.23.0-r1-1 [1.23.0]
+[ebuild     U  ] net-libs/gnutls-3.8.10-r1 [3.8.10]
+[binary     U  ] dev-python/more-itertools-10.8.0-1 [10.7.0]
+[binary     U  ] dev-python/trove-classifiers-2025.9.11.17-1 [2025.8.26.11] USE="-verify-provenance%" 
+[ebuild     U  ] media-gfx/graphite2-1.3.14_p20210810-r5 [1.3.14_p20210810-r3] PERL_FEATURES="(-debug) -ithreads% -quadmath%" 
+[binary     U  ] kde-frameworks/extra-cmake-modules-6.18.0-r1-1 [6.16.0]
+[binary     U  ] dev-python/pyparsing-3.2.5-1 [3.2.3]
+[ebuild  N     ] media-libs/glm-1.0.1  USE="-test" CPU_FLAGS_X86="avx avx2 sse2 sse3 sse4_1 sse4_2 ssse3" 
+[binary     U  ] sys-libs/pam_wrapper-1.1.8-4 [1.1.5] PYTHON_TARGETS="-python3_14%" 
+[binary     U  ] sys-auth/pambase-20251013-1 [20250826]
+[binary     U  ] dev-util/glib-utils-2.84.4-1 [2.84.3]
+[binary     U  ] dev-python/lxml-6.0.2-1 [6.0.1]
+[binary     U  ] dev-python/cython-3.1.4-1 [3.1.3]
+[binary     U  ] dev-python/markupsafe-3.0.3-1 [3.0.2]
+[binary   R    ] dev-python/mako-1.3.10-6  PYTHON_TARGETS="-python3_14%" 
+[binary     U  ] dev-python/pyyaml-6.0.3-1 [6.0.2] PYTHON_TARGETS="-python3_14%" 
+[binary     U  ] dev-python/fastjsonschema-2.21.2-1 [2.21.1]
+[binary     U  ] dev-python/lark-1.3.0-1 [1.2.2]
+[binary     U  ] dev-python/poetry-core-2.2.1-1 [2.1.3]
+[binary     U  ] dev-util/maturin-1.9.6-1 [1.9.3]
+[binary     U  ] dev-python/pycparser-2.23-1 [2.22]
+[binary     U  ] dev-python/rdflib-7.2.1-1 [7.1.4]
+[ebuild   R    ] media-libs/lilv-0.24.26  PYTHON_SINGLE_TARGET="-python3_14%" 
+[binary     U  ] dev-python/setuptools-scm-9.2.0-1 [8.3.1]
+[binary   R    ] app-text/asciidoc-10.2.1-9  PYTHON_SINGLE_TARGET="-python3_14%" 
+[ebuild     U  ] dev-python/emoji-2.15.0 [2.14.1]
+[ebuild     U  ] dev-python/protobuf-6.32.1-r1 [6.31.1]
+[binary     U  ] dev-python/psutil-7.1.0-1 [7.0.0]
+[binary     U  ] dev-python/tree-sitter-0.25.1-r1-4 [0.25.1]
+[ebuild     U  ] dev-python/secretstorage-3.4.0 [3.3.3] USE="-verify-provenance%" 
+[binary     U  ] app-crypt/gnupg-2.4.8-r1-5 [2.4.8] USE="alternatives%*" 
+[binary  N     ] app-alternatives/gpg-0-r2-2  USE="nls reference ssl" 
+[binary     U  ] app-portage/getuto-1.15-r1-1 [1.15]
+[binary     U  ] dev-vcs/git-2.51.0-7 [2.49.1]
+[binary     U  ] sys-apps/smartmontools-7.5-r1-1 [7.5]
+[binary     U  ] sys-apps/portage-3.0.69.3-r2-1 [3.0.68]
+[binary   R    ] dev-debug/gdb-16.3-12  PYTHON_SINGLE_TARGET="-python3_14%" 
+[binary     U  ] sys-apps/kbd-2.9.0-3 [2.8.0] USE="bzip2%* zlib%* -lzma% -zstd%" 
+[binary   R    ] llvm-core/clang-20.1.8-22  ABI_X86="32*" 
+[binary     U  ] dev-util/mesa_clc-25.1.9-2 [25.1.7]
+[ebuild     U  ] media-libs/mesa-25.1.9 [25.1.7]
+[binary  NS    ] sys-kernel/gentoo-kernel-6.12.47-1 [6.16.9]
+[binary     UD ] virtual/dist-kernel-6.12.47-1 [6.16.9]
+[binary     U  ] app-crypt/gcr-3.41.2-r2-1 [3.41.2-r1]
+[binary     U  ] app-crypt/gcr-4.4.0.1-r1-1 [4.3.1]
+[binary     U  ] virtual/secret-service-0-r1-1 [0]
+[binary     U #] app-emulation/libvirt-11.6.0-r2-1 [11.1.0-r1]
+[binary     U  ] dev-python/libvirt-python-11.6.0-1 [11.1.0] PYTHON_TARGETS="-python3_14%" 
+[binary     U  ] dev-libs/appstream-1.0.6-3 [1.0.4-r1]
+[binary   R    ] dev-libs/gobject-introspection-1.84.0-r1-4  PYTHON_SINGLE_TARGET="-python3_14%" 
+[binary     U  ] dev-libs/kirigami-addons-1.10.0-1 [1.9.0]
+[binary     U  ] dev-libs/libical-3.0.20-r2-1 [3.0.20-r1]
+[binary     U  ] dev-libs/qgpgme-2.0.0-r2-1 [2.0.0-r1]
+[binary     U  ] dev-python/docutils-0.22.2-1 [0.22]
+[ebuild     U  ] dev-libs/glib-2.84.4 [2.84.3]
+[binary     U  ] x11-misc/shared-mime-info-2.4-r3-1 [2.4-r2]
+[binary     U  ] dev-util/gdbus-codegen-2.84.4-1 [2.84.3]
 [blocks b      ] <dev-util/gdbus-codegen-2.84.4 ("<dev-util/gdbus-codegen-2.84.4" is soft blocking dev-libs/glib-2.84.4)
-[binary     U  ] net-libs/libmbim-1.32.0-1::gentoo [1.28.4-r1::gentoo] USE="-gtk-doc -introspection" 350 KiB
-[binary     U  ] kde-frameworks/breeze-icons-6.18.0-1:6/6.18::gentoo [6.16.0:6/6.16::gentoo] USE="-test" 9,190 KiB
-[ebuild     U  ] media-libs/harfbuzz-11.4.5:0/6.0.0::gentoo [11.2.1:0/6.0.0::gentoo] USE="cairo glib graphite icu introspection truetype -debug -doc -experimental -test" ABI_X86="32 (64) (-x32)" 17,726 KiB
-[ebuild     U  ] app-accessibility/at-spi2-core-2.56.5:2::gentoo [2.54.1-r1:2::gentoo] USE="X introspection systemd -dbus-broker -gtk-doc -test" ABI_X86="32 (64) (-x32)" 569 KiB
-[binary     U  ] gnome-base/gsettings-desktop-schemas-48.0-2::gentoo [47.1::gentoo] USE="introspection" 720 KiB
-[binary     U  ] gnome-base/gnome-keyring-48.0-r1-1::gentoo [46.2::gentoo] USE="pam systemd -caps% (-selinux) -ssh-agent* -test (-valgrind%)" 710 KiB
-[binary     U  ] net-libs/libqmi-1.36.0-1:0/5.11::gentoo [1.32.4-r1:0/5.9::gentoo] USE="mbim qrtr -gtk-doc -introspection" 1,240 KiB
-[ebuild     U  ] app-editors/neovim-0.11.4-r1::gentoo [0.11.3::gentoo] USE="nvimpager -test" LUA_SINGLE_TARGET="luajit -lua5-1" 12,658 KiB
-[ebuild     U  ] app-misc/fastfetch-2.53.0::gentoo [2.52.0::gentoo] USE="X dbus gnome opengl vulkan wayland xcb -chafa -ddcutil -drm -elf -imagemagick -opencl -pulseaudio -sqlite -test -xrandr" 1,343 KiB
-[ebuild     U  ] x11-libs/pango-1.57.0::gentoo [1.56.4-r1::gentoo] USE="X introspection -debug -examples -gtk-doc -sysprof -test" ABI_X86="32 (64) (-x32)" 2,507 KiB
-[binary     U  ] net-libs/libproxy-0.5.11-2::gentoo [0.5.9::gentoo] USE="gnome introspection -duktape -gtk-doc -test -vala" ABI_X86="(64) -32 (-x32)" 60 KiB
-[binary     U  ] media-libs/libass-0.17.4-1:0/9::gentoo [0.17.1-r2:0/9::gentoo] USE="fontconfig -libunibreak -test -verify-sig" ABI_X86="(64) -32 (-x32)" 150 KiB
-[binary     U  ] dev-cpp/tbb-2022.1.0-1:0/12.15-2.15-3.15::gentoo [2021.9.0:0/12.5-2.5-3.5::gentoo] USE="-test" ABI_X86="(64) -32 (-x32)" 340 KiB
-[binary     U  ] sys-power/switcheroo-control-3.0-3::gentoo [2.6-r2::gentoo] USE="-gtk-doc (-selinux) -test" PYTHON_SINGLE_TARGET="python3_13 -python3_11 -python3_12 -python3_14%" VIDEO_CARDS="amdgpu%* nouveau%*" 50 KiB
-[ebuild     U  ] dev-util/ostree-2025.6::gentoo [2024.3-r2::gentoo] USE="curl gpg http2 soup ssl systemd -archive -doc -dracut -gnutls -grub -introspection -libmount (-selinux) -sodium -zeroconf" 2,084 KiB
-[binary     U  ] net-misc/modemmanager-1.24.0-4:0/1::gentoo [1.20.6:0/1::gentoo] USE="introspection mbim (policykit) qmi qrtr systemd udev (-elogind) -gtk-doc (-selinux) -test -vala" 1,580 KiB
-[binary   R    ] sys-power/power-profiles-daemon-0.30-3::gentoo  USE="-bash-completion -gtk-doc -man (-selinux) -test -zsh-completion" PYTHON_SINGLE_TARGET="python3_13 -python3_11 -python3_12 -python3_14%" 80 KiB
-[binary   R    ] kde-frameworks/kcoreaddons-5.116.0-3:5/5.116::gentoo  USE="dbus -debug (-fam) -test (-doc%)" 510 KiB
-[binary   R    ] kde-frameworks/karchive-5.116.0-5:5/5.116::gentoo  USE="zstd -debug -test (-doc%)" 170 KiB
-[binary     U  ] net-wireless/bluez-5.84-1:0/3::gentoo [5.83:0/3::gentoo] USE="cups mesh obex readline systemd udev -btpclient -debug -deprecated -doc -experimental -extra-tools -man -midi (-selinux) -test -test-programs" ABI_X86="(64) -32 (-x32)" PYTHON_SINGLE_TARGET="python3_13 -python3_11 -python3_12" 1,390 KiB
-[binary   R    ] kde-frameworks/kcodecs-5.116.0-3:5/5.116::gentoo  USE="-debug -test (-doc%)" 180 KiB
-[binary   R    ] kde-frameworks/attica-5.116.0-3:5/5.116::gentoo  USE="-debug -test (-doc%)" 190 KiB
-[binary   R    ] dev-python/pycups-2.0.4-14::gentoo  USE="-debug -examples" PYTHON_TARGETS="python3_13 -python3_11 -python3_12 -python3_14%" 100 KiB
-[ebuild     U  ] media-video/pipewire-1.4.8-r3:0/0.4::gentoo [1.4.7-r2:0/0.4::gentoo] USE="X bluetooth dbus readline sound-server ssl systemd -doc -echo-cancel (-elogind) -extra -ffmpeg -fftw -flatpak -gsettings -gstreamer -ieee1394 -jack-client -jack-sdk -liblc3 -loudness -lv2 -man -modemmanager -pipewire-alsa -roc (-selinux) (-system-service) -test -v4l -zeroconf" ABI_X86="32 (64) (-x32)" 1,884 KiB
-[ebuild   R    ] app-accessibility/speech-dispatcher-0.12.1::gentoo  USE="alsa espeak pipewire python systemd -ao -flite -nas -pulseaudio" PYTHON_TARGETS="python3_13 -python3_11 -python3_12 -python3_14%" 0 KiB
-[binary     U  ] kde-frameworks/kwidgetsaddons-6.18.0-1:6/6.18::gentoo [6.16.0:6/6.16::gentoo] USE="-debug -designer -test" 1,690 KiB
-[binary     U  ] kde-frameworks/karchive-6.18.0-3:6/6.18::gentoo [6.16.0:6/6.16::gentoo] USE="crypt zstd -debug -test" 200 KiB
-[binary     U  ] kde-frameworks/kcodecs-6.18.0-1:6/6.18::gentoo [6.16.0:6/6.16::gentoo] USE="-debug -test" 170 KiB
-[binary     U  ] kde-frameworks/kitemviews-6.18.0-1:6/6.18::gentoo [6.16.0:6/6.16::gentoo] USE="-debug -designer -test" 140 KiB
-[binary     U  ] kde-apps/libkexiv2-25.08.2-1:6::gentoo [25.04.3:6::gentoo] USE="xmp -debug" 190 KiB
-[binary     U  ] kde-frameworks/attica-6.18.0-1:6/6.18::gentoo [6.16.0:6/6.16::gentoo] USE="-debug -test" 210 KiB
-[binary     U  ] kde-frameworks/kdnssd-6.18.0-1:6/6.18::gentoo [6.16.0:6/6.16::gentoo] USE="-debug -test -zeroconf" 70 KiB
-[binary     U  ] kde-frameworks/modemmanager-qt-6.18.0-1:6/6.18::gentoo [6.16.0:6/6.16::gentoo] USE="-debug -test" 240 KiB
-[binary     U  ] kde-frameworks/kdoctools-6.18.0-1:6/6.18::gentoo [6.16.0:6/6.16::gentoo] USE="nls -debug -test" 460 KiB
-[binary     U  ] kde-frameworks/kitemmodels-6.18.0-1:6/6.18::gentoo [6.16.0:6/6.16::gentoo] USE="-debug -test" 180 KiB
-[binary     U  ] kde-frameworks/kholidays-6.18.0-1:6/6.18::gentoo [6.16.0:6/6.16::gentoo] USE="-debug -test" 300 KiB
-[binary     U  ] kde-frameworks/networkmanager-qt-6.18.0-1:6/6.18::gentoo [6.16.0:6/6.16::gentoo] USE="-debug -teamd -test" 470 KiB
-[binary     U  ] kde-frameworks/bluez-qt-6.18.0-1:6/6.18::gentoo [6.16.0:6/6.16::gentoo] USE="-debug -test" 360 KiB
-[binary   R    ] kde-frameworks/ki18n-5.116.0-11:5/5.116::gentoo  USE="-debug -test (-doc%)" PYTHON_SINGLE_TARGET="python3_13 -python3_11 -python3_12 -python3_14%" 1,450 KiB
-[binary   R    ] kde-frameworks/kpackage-5.116.0-3:5/5.116::gentoo  USE="-debug -man -test (-doc%)" 190 KiB
-[binary   R    ] kde-frameworks/kconfig-5.116.0-4:5/5.116::gentoo  USE="dbus qml -debug -test (-doc%)" 400 KiB
-[binary   R    ] kde-frameworks/solid-5.116.0-r1-3:5/5.116::gentoo  USE="-debug -ios -test (-doc%)" 390 KiB
-[binary   R    ] kde-frameworks/kdbusaddons-5.116.0-3:5/5.116::gentoo  USE="X -debug -test (-doc%)" 90 KiB
-[binary   R    ] kde-frameworks/kcrash-5.116.0-3:5/5.116::gentoo  USE="X -debug -test (-doc%)" 60 KiB
-[binary   R    ] kde-frameworks/kservice-5.116.0-r1-3:5/5.116::gentoo  USE="man -debug -test (-doc%)" 370 KiB
-[binary   R    ] kde-frameworks/kwindowsystem-5.116.0-5:5/5.116::gentoo  USE="X wayland -debug -test (-doc%)" 210 KiB
-[binary   R    ] kde-frameworks/kwidgetsaddons-5.116.0-3:5/5.116::gentoo  USE="-debug -designer -test (-doc%)" 1,500 KiB
-[binary   R    ] kde-frameworks/knotifications-5.116.0-r2-3:5/5.116::gentoo  USE="X qml -debug -speech (-doc%)" 170 KiB
-[binary   R    ] kde-frameworks/kitemviews-5.116.0-3:5/5.116::gentoo  USE="-debug -designer -test (-doc%)" 120 KiB
-[binary   R    ] kde-frameworks/kcompletion-5.116.0-3:5/5.116::gentoo  USE="-debug -designer -test (-doc%)" 140 KiB
-[binary   R    ] kde-frameworks/kjobwidgets-5.116.0-3:5/5.116::gentoo  USE="X -debug -test (-doc%)" 130 KiB
-[binary   R    ] kde-frameworks/kauth-5.116.0-3:5/5.116::gentoo  USE="(policykit) -debug -test (-doc%)" 130 KiB
-[binary     U  ] gnome-base/gnome-desktop-44.4-r400-3:4/2::gentoo [44.1-r400:4/2::gentoo] USE="(seccomp) systemd udev -debug -gtk-doc" 580 KiB
-[binary     U  ] x11-themes/adwaita-icon-theme-48.1-1::gentoo [47.0::gentoo] USE="branding" 490 KiB
-[binary     U  ] kde-apps/baloo-widgets-25.08.2-1:6::gentoo [25.04.3:6::gentoo] USE="-debug -test" 170 KiB
-[binary     U  ] kde-apps/kio-extras-25.08.2-1:6::gentoo [25.04.3:6::gentoo] USE="X activities handbook libproxy man sftp -debug -ios -mtp -nfs -openexr -phonon* -samba -taglib -test" 1,540 KiB
-[binary   R    ] kde-frameworks/kbookmarks-5.116.0-3:5/5.116::gentoo  USE="-debug -test (-doc%)" 180 KiB
-[binary   R    ] kde-frameworks/kcmutils-5.116.0-3:5/5.116::gentoo  USE="-debug -test (-doc%)" 250 KiB
-[binary     U  ] kde-frameworks/kconfig-6.18.0-1:6/6.18::gentoo [6.16.0:6/6.16::gentoo] USE="dbus qml -debug -test" 500 KiB
-[binary     U  ] kde-frameworks/kwallet-6.18.0-1:6/6.18::gentoo [6.16.0:6/6.16::gentoo] USE="-debug -minimal -test" 90 KiB
-[binary   R    ] kde-frameworks/kwallet-5.116.0-r3-3:5/5.116::gentoo  USE="-debug -minimal -test (-doc%)" 80 KiB
-[binary   R    ] kde-frameworks/kconfigwidgets-5.116.0-3:5/5.116::gentoo  USE="man -debug -designer -test (-doc%)" 410 KiB
-[binary   R    ] kde-frameworks/kiconthemes-5.116.0-3:5/5.116::gentoo  USE="-debug -designer -test (-doc%)" 160 KiB
-[binary     U  ] kde-frameworks/kcoreaddons-6.18.0-1:6/6.18::gentoo [6.16.0:6/6.16::gentoo] USE="dbus -debug -test" 520 KiB
-[binary     U  ] kde-frameworks/kcrash-6.18.0-1:6/6.18::gentoo [6.16.0:6/6.16::gentoo] USE="X -debug -test" 60 KiB
-[binary     U  ] kde-frameworks/kcompletion-6.18.0-1:6/6.18::gentoo [6.16.0:6/6.16::gentoo] USE="-debug -designer -test" 140 KiB
-[binary   R    ] kde-frameworks/kglobalaccel-5.116.0-r2-3:5/5.116::gentoo  USE="-debug -test (-doc%)" 150 KiB
-[binary   R    ] kde-frameworks/kguiaddons-5.116.0-r2-6:5/5.116::gentoo  USE="X dbus wayland -debug -test (-doc%)" 130 KiB
-[binary   R    ] kde-frameworks/kxmlgui-5.116.0-6:5/5.116::gentoo  USE="-debug -designer -test (-doc%)" 710 KiB
-[binary   R    ] kde-frameworks/kio-5.116.0-r5-4:5/5.116::gentoo  USE="X acl handbook kwallet -debug -designer -kerberos -test (-doc%)" 4,350 KiB
-[binary   R    ] kde-frameworks/kdeclarative-5.116.0-3:5/5.116::gentoo  USE="-debug (-doc%)" 280 KiB
-[binary   R    ] kde-frameworks/knewstuff-5.116.0-3:5/5.116::gentoo  USE="-debug -designer (-opds) (-doc%)" 800 KiB
-[binary     U  ] kde-frameworks/ki18n-6.18.0-1:6/6.18::gentoo [6.16.0:6/6.16::gentoo] USE="-debug -test" PYTHON_SINGLE_TARGET="python3_13 -python3_11 -python3_12" 1,520 KiB
-[binary     U  ] kde-frameworks/kservice-6.18.0-1:6/6.18::gentoo [6.16.0:6/6.16::gentoo] USE="man -debug -test" 260 KiB
-[binary     U  ] kde-frameworks/kpackage-6.18.0-1:6/6.18::gentoo [6.16.0:6/6.16::gentoo] USE="-debug -man -test" 190 KiB
-[binary     U  ] kde-frameworks/kfilemetadata-6.18.0-1:6/6.18::gentoo [6.16.0:6/6.16::gentoo] USE="exif pdf taglib -debug -epub -ffmpeg -mobi -test" 270 KiB
-[binary     U  ] kde-frameworks/kunitconversion-6.18.0-1:6/6.18::gentoo [6.16.0:6/6.16::gentoo] USE="-debug -test" 940 KiB
-[binary     U  ] kde-frameworks/kpty-6.18.0-1:6/6.18::gentoo [6.16.0:6/6.16::gentoo] USE="-debug -test" 80 KiB
-[binary     U  ] kde-frameworks/kdesu-6.18.0-1:6/6.18::gentoo [6.16.0:6/6.16::gentoo] USE="X -debug -test" 100 KiB
-[binary     U  ] kde-frameworks/knotifications-6.18.0-1:6/6.18::gentoo [6.16.0:6/6.16::gentoo] USE="-debug" 150 KiB
-[binary     U  ] kde-frameworks/kquickcharts-6.18.0-1:6/6.18::gentoo [6.16.0:6/6.16::gentoo] USE="-debug -examples -test" 200 KiB
-[binary     U  ] kde-frameworks/prison-6.18.0-1:6/6.18::gentoo [6.16.0:6/6.16::gentoo] USE="qml -debug -test" 110 KiB
-[binary     U  ] kde-frameworks/solid-6.18.0-1:6/6.18::gentoo [6.16.0:6/6.16::gentoo] USE="-debug -ios -test" 440 KiB
-[binary     U  ] kde-frameworks/sonnet-6.18.0-1:6/6.18::gentoo [6.16.0:6/6.16::gentoo] USE="hunspell qml -aspell -debug -designer -test" 370 KiB
-[binary     U  ] kde-frameworks/ktextwidgets-6.18.0-1:6/6.18::gentoo [6.16.0:6/6.16::gentoo] USE="-debug -designer -speech -test" 300 KiB
-[binary     U  ] kde-frameworks/syntax-highlighting-6.18.0-1:6/6.18::gentoo [6.16.0:6/6.16::gentoo] USE="-debug -test" 1,510 KiB
-[binary   R    ] media-gfx/fontforge-20230101-r2-13::gentoo  USE="X gif gtk jpeg png python readline svg tiff -doc -test -truetype-debugger -woff2" PYTHON_SINGLE_TARGET="python3_13 -python3_11 -python3_12 -python3_14%" 5,480 KiB
-[binary     U  ] media-gfx/kio-ps-thumbnailer-25.08.2-1:6::gentoo [25.04.3:6::gentoo] USE="-debug" 70 KiB
-[binary     U  ] kde-apps/thumbnailers-25.08.2-1:6::gentoo [25.04.3:6::gentoo] USE="pdf -blender -gettext -mobi -raw -video" 20 KiB
-[ebuild     U  ] x11-terms/kitty-0.43.1::gentoo [0.42.2-r1::gentoo] USE="X wayland -test -verify-sig" PYTHON_SINGLE_TARGET="python3_13 -python3_11 -python3_12 -python3_14" 1,893 KiB
-[binary  N     ] media-libs/libjxl-0.11.1-2:0/0.11::gentoo  USE="gdk-pixbuf gif jpeg png -openexr -test" ABI_X86="(64) -32 (-x32)" 1,330 KiB
-[ebuild     U  ] kde-frameworks/kimageformats-6.18.0:6/6.18::gentoo [6.16.0:6/6.16::gentoo] USE="avif heif jpegxl* -debug -eps -jpeg2k -openexr -raw -test" 28,078 KiB
-[ebuild     U  ] x11-libs/gtk+-3.24.51:3::gentoo [3.24.50:3::gentoo] USE="X cups introspection wayland (-aqua) -broadway -cloudproviders -colord -examples -gtk-doc -sysprof -test -vim-syntax -xinerama" ABI_X86="32 (64) (-x32)" 13,168 KiB
-[binary     U  ] x11-libs/vte-0.80.4-4:2.91::gentoo [0.78.5:2.91::gentoo] USE="crypt icu introspection systemd vala -debug -gtk-doc" 450 KiB
-[binary     U  ] dev-qt/qtbase-6.9.3-4:6/6.9.3::gentoo [6.9.2:6/6.9.2::gentoo] USE="X concurrent cups dbus gtk gui icu libinput libproxy mysql network nls opengl sql sqlite ssl udev vulkan wayland widgets xml (zstd) -accessibility -brotli -custom-cflags -eglfs -evdev -gles2-only -gssapi -journald -oci8 -odbc -postgres -renderdoc -sctp -syslog -test -tslib" 12,710 KiB
-[binary     U  ] kde-frameworks/kdbusaddons-6.18.0-1:6/6.18::gentoo [6.16.0:6/6.16::gentoo] USE="X -debug -test" 100 KiB
-[binary     U  ] dev-qt/qtsvg-6.9.3-2:6/6.9.3::gentoo [6.9.2:6/6.9.2::gentoo] USE="-custom-cflags -test" 280 KiB
-[binary     U  ] dev-qt/qtwayland-6.9.3-2:6/6.9.3::gentoo [6.9.2:6/6.9.2::gentoo] USE="gnome qml vulkan -accessibility -compositor -custom-cflags -test" 570 KiB
-[binary     U  ] dev-qt/qtdeclarative-6.9.3-r1-1:6/6.9.3::gentoo [6.9.2-r1:6/6.9.2::gentoo] USE="jit network opengl sql ssl svg vulkan widgets -accessibility -custom-cflags -qmlls" 13,670 KiB
-[binary     U  ] kde-frameworks/kguiaddons-6.18.0-1:6/6.18::gentoo [6.16.0:6/6.16::gentoo] USE="X dbus wayland -debug -test" 170 KiB
-[binary     U  ] kde-frameworks/kcolorscheme-6.18.0-1:6/6.18::gentoo [6.16.0:6/6.16::gentoo] USE="-debug" 80 KiB
-[binary     U  ] kde-frameworks/kwindowsystem-6.18.0-1:6/6.18::gentoo [6.16.0-r1:6/6.16::gentoo] USE="X wayland -debug -test" 260 KiB
-[binary     U  ] kde-frameworks/kwallet-runtime-6.18.0-r1-1:6/6.18::gentoo [6.16.0:6/6.16::gentoo] USE="X (keyring) (legacy-kwallet) man -debug -gpg -test" 470 KiB
+[ebuild     U  ] dev-libs/json-glib-1.10.8 [1.10.6]
+[binary     U  ] net-libs/libmbim-1.32.0-1 [1.28.4-r1]
+[ebuild     U  ] media-libs/harfbuzz-11.4.5 [11.2.1]
+[ebuild     U  ] app-accessibility/at-spi2-core-2.56.5 [2.54.1-r1]
+[binary     U  ] gnome-base/gsettings-desktop-schemas-48.0-2 [47.1]
+[binary     U  ] gnome-base/gnome-keyring-48.0-r1-1 [46.2] USE="-caps% -ssh-agent*" 
+[binary     U  ] net-libs/libqmi-1.36.0-1 [1.32.4-r1]
+[ebuild     U  ] app-editors/neovim-0.11.4-r1 [0.11.3]
+[ebuild     U  ] x11-libs/pango-1.57.0 [1.56.4-r1]
+[binary     U  ] net-libs/libproxy-0.5.11-2 [0.5.9]
+[binary     U  ] media-libs/libass-0.17.4-1 [0.17.1-r2]
+[ebuild     U  ] app-misc/fastfetch-2.53.0 [2.52.0]
+[binary     U  ] dev-cpp/tbb-2022.1.0-1 [2021.9.0]
+[binary     U  ] sys-power/switcheroo-control-3.0-3 [2.6-r2] PYTHON_SINGLE_TARGET="-python3_14%" VIDEO_CARDS="amdgpu%* nouveau%*" 
+[ebuild     U  ] dev-util/ostree-2025.6 [2024.3-r2]
+[binary     U  ] kde-frameworks/breeze-icons-6.18.0-1 [6.16.0]
+[binary     U  ] net-misc/modemmanager-1.24.0-4 [1.20.6]
+[binary   R    ] sys-power/power-profiles-daemon-0.30-3  PYTHON_SINGLE_TARGET="-python3_14%" 
+[binary     U  ] net-wireless/bluez-5.84-1 [5.83]
+[binary   R    ] kde-frameworks/attica-5.116.0-3  USE="(-doc%)" 
+[binary   R    ] dev-python/pycups-2.0.4-14  PYTHON_TARGETS="-python3_14%" 
+[binary   R    ] kde-frameworks/kcoreaddons-5.116.0-3  USE="(-doc%)" 
+[binary   R    ] kde-frameworks/karchive-5.116.0-5  USE="(-doc%)" 
+[binary   R    ] kde-frameworks/kcodecs-5.116.0-3  USE="(-doc%)" 
+[ebuild     U  ] media-video/pipewire-1.4.8-r3 [1.4.7-r2]
+[ebuild   R    ] app-accessibility/speech-dispatcher-0.12.1  PYTHON_TARGETS="-python3_14%" 
+[binary     U  ] kde-apps/libkexiv2-25.08.2-1 [25.04.3]
+[binary     U  ] kde-frameworks/attica-6.18.0-1 [6.16.0]
+[binary     U  ] kde-frameworks/modemmanager-qt-6.18.0-1 [6.16.0]
+[binary     U  ] kde-frameworks/ki18n-6.18.0-1 [6.16.0]
+[binary     U  ] kde-frameworks/kitemmodels-6.18.0-1 [6.16.0]
+[binary     U  ] kde-frameworks/networkmanager-qt-6.18.0-1 [6.16.0]
+[binary     U  ] kde-frameworks/kquickcharts-6.18.0-1 [6.16.0]
+[binary     U  ] kde-frameworks/bluez-qt-6.18.0-1 [6.16.0]
+[binary     U  ] kde-frameworks/kcoreaddons-6.18.0-1 [6.16.0]
+[binary     U  ] kde-frameworks/syntax-highlighting-6.18.0-1 [6.16.0]
+[binary     U  ] kde-frameworks/kunitconversion-6.18.0-1 [6.16.0]
+[binary     U  ] kde-frameworks/kholidays-6.18.0-1 [6.16.0]
+[binary     U  ] kde-frameworks/kdnssd-6.18.0-1 [6.16.0]
+[binary     U  ] kde-frameworks/kcrash-6.18.0-1 [6.16.0]
+[binary     U  ] kde-frameworks/kpty-6.18.0-1 [6.16.0]
+[binary     U  ] kde-frameworks/kwidgetsaddons-6.18.0-1 [6.16.0]
+[binary     U  ] kde-frameworks/karchive-6.18.0-3 [6.16.0]
+[binary     U  ] kde-frameworks/kdoctools-6.18.0-1 [6.16.0]
+[binary     U  ] kde-frameworks/kpackage-6.18.0-1 [6.16.0]
+[binary     U  ] kde-frameworks/kcodecs-6.18.0-1 [6.16.0]
+[binary     U  ] kde-frameworks/kfilemetadata-6.18.0-1 [6.16.0]
+[binary     U  ] kde-frameworks/kitemviews-6.18.0-1 [6.16.0]
+[binary   R    ] kde-frameworks/ki18n-5.116.0-11  USE="(-doc%)" PYTHON_SINGLE_TARGET="-python3_14%" 
+[binary   R    ] kde-frameworks/kpackage-5.116.0-3  USE="(-doc%)" 
+[binary   R    ] kde-frameworks/kconfig-5.116.0-4  USE="(-doc%)" 
+[binary   R    ] kde-frameworks/solid-5.116.0-r1-3  USE="(-doc%)" 
+[binary   R    ] kde-frameworks/kdbusaddons-5.116.0-3  USE="(-doc%)" 
+[binary   R    ] kde-frameworks/kcrash-5.116.0-3  USE="(-doc%)" 
+[binary   R    ] kde-frameworks/kservice-5.116.0-r1-3  USE="(-doc%)" 
+[binary   R    ] kde-frameworks/kwindowsystem-5.116.0-5  USE="(-doc%)" 
+[binary   R    ] kde-frameworks/kwidgetsaddons-5.116.0-3  USE="(-doc%)" 
+[binary   R    ] kde-frameworks/knotifications-5.116.0-r2-3  USE="(-doc%)" 
+[binary   R    ] kde-frameworks/kitemviews-5.116.0-3  USE="(-doc%)" 
+[binary   R    ] kde-frameworks/kcompletion-5.116.0-3  USE="(-doc%)" 
+[binary   R    ] kde-frameworks/kjobwidgets-5.116.0-3  USE="(-doc%)" 
+[binary   R    ] kde-frameworks/kauth-5.116.0-3  USE="(-doc%)" 
+[binary     U  ] gnome-base/gnome-desktop-44.4-r400-3 [44.1-r400]
+[binary     U  ] x11-themes/adwaita-icon-theme-48.1-1 [47.0]
+[binary     U  ] kde-apps/baloo-widgets-25.08.2-1 [25.04.3]
+[binary     U  ] kde-apps/kio-extras-25.08.2-1 [25.04.3] USE="-phonon*" 
+[binary   R    ] kde-frameworks/kbookmarks-5.116.0-3  USE="(-doc%)" 
+[binary   R    ] kde-frameworks/kcmutils-5.116.0-3  USE="(-doc%)" 
+[binary     U  ] kde-frameworks/kconfig-6.18.0-1 [6.16.0]
+[binary     U  ] kde-frameworks/kservice-6.18.0-1 [6.16.0]
+[binary     U  ] kde-frameworks/knotifications-6.18.0-1 [6.16.0]
+[binary     U  ] kde-frameworks/kdesu-6.18.0-1 [6.16.0]
+[binary     U  ] kde-frameworks/kcompletion-6.18.0-1 [6.16.0]
+[binary     U  ] kde-frameworks/kwallet-6.18.0-1 [6.16.0]
+[binary   R    ] kde-frameworks/kwallet-5.116.0-r3-3  USE="(-doc%)" 
+[binary   R    ] kde-frameworks/kconfigwidgets-5.116.0-3  USE="(-doc%)" 
+[binary   R    ] kde-frameworks/kiconthemes-5.116.0-3  USE="(-doc%)" 
+[binary   R    ] kde-frameworks/kglobalaccel-5.116.0-r2-3  USE="(-doc%)" 
+[binary   R    ] kde-frameworks/kguiaddons-5.116.0-r2-6  USE="(-doc%)" 
+[binary   R    ] kde-frameworks/kxmlgui-5.116.0-6  USE="(-doc%)" 
+[binary   R    ] kde-frameworks/kio-5.116.0-r5-4  USE="(-doc%)" 
+[binary   R    ] kde-frameworks/kdeclarative-5.116.0-3  USE="(-doc%)" 
+[binary   R    ] kde-frameworks/knewstuff-5.116.0-3  USE="(-doc%)" 
+[binary     U  ] kde-frameworks/prison-6.18.0-1 [6.16.0]
+[binary     U  ] kde-frameworks/solid-6.18.0-1 [6.16.0]
+[binary     U  ] kde-frameworks/sonnet-6.18.0-1 [6.16.0]
+[binary     U  ] kde-frameworks/ktextwidgets-6.18.0-1 [6.16.0]
+[binary   R    ] media-gfx/fontforge-20230101-r2-13  PYTHON_SINGLE_TARGET="-python3_14%" 
+[binary     U  ] media-gfx/kio-ps-thumbnailer-25.08.2-1 [25.04.3]
+[binary     U  ] kde-apps/thumbnailers-25.08.2-1 [25.04.3]
+[ebuild     U  ] x11-terms/kitty-0.43.1 [0.42.2-r1]
+[binary  N     ] media-libs/libjxl-0.11.1-2  USE="gdk-pixbuf gif jpeg png -openexr -test" ABI_X86="(64) -32 (-x32)" 
+[ebuild     U  ] kde-frameworks/kimageformats-6.18.0 [6.16.0] USE="jpegxl*" 
+[ebuild     U  ] x11-libs/gtk+-3.24.51 [3.24.50]
+[binary     U  ] x11-libs/vte-0.80.4-4 [0.78.5]
+[binary     U  ] dev-qt/qtbase-6.9.3-4 [6.9.2]
+[binary     U  ] kde-frameworks/kguiaddons-6.18.0-1 [6.16.0]
+[binary     U  ] kde-frameworks/kdbusaddons-6.18.0-1 [6.16.0]
+[binary     U  ] kde-frameworks/kwindowsystem-6.18.0-1 [6.16.0-r1]
+[binary     U  ] dev-qt/qtsvg-6.9.3-2 [6.9.2]
+[binary     U  ] dev-qt/qtwayland-6.9.3-2 [6.9.2]
+[binary     U  ] dev-qt/qtdeclarative-6.9.3-r1-1 [6.9.2-r1]
+[binary     U  ] kde-frameworks/kcolorscheme-6.18.0-1 [6.16.0]
+[binary     U  ] kde-frameworks/kwallet-runtime-6.18.0-r1-1 [6.16.0]
 [blocks b      ] <kde-frameworks/kwallet-runtime-6.18.0-r1:6 ("<kde-frameworks/kwallet-runtime-6.18.0-r1:6" is soft blocking kde-frameworks/ksecretd-services-6.18.0)
-[binary     U  ] kde-frameworks/kirigami-6.18.0-1:6/6.18::gentoo [6.16.0-r1:6/6.16::gentoo] USE="openmp -debug -examples -test" 850 KiB
-[binary     U  ] kde-frameworks/kiconthemes-6.18.0-1:6/6.18::gentoo [6.16.0:6/6.16::gentoo] USE="-debug -designer -test" 190 KiB
-[binary     U  ] kde-frameworks/kconfigwidgets-6.18.0-1:6/6.18::gentoo [6.16.0:6/6.16::gentoo] USE="-debug -designer -test" 340 KiB
-[binary     U  ] kde-frameworks/kglobalaccel-6.18.0-1:6/6.18::gentoo [6.16.0:6/6.16::gentoo] USE="X -debug -test" 120 KiB
-[binary     U  ] kde-frameworks/kauth-6.18.0-1:6/6.18::gentoo [6.16.0:6/6.16::gentoo] USE="(policykit) -debug -test" 140 KiB
-[binary     U  ] kde-frameworks/kjobwidgets-6.18.0-1:6/6.18::gentoo [6.16.0:6/6.16::gentoo] USE="X -debug -test" 160 KiB
-[binary     U  ] dev-qt/qtshadertools-6.9.3-1:6/6.9.3::gentoo [6.9.2:6/6.9.2::gentoo] USE="-custom-cflags -test" 1,670 KiB
-[blocks b      ] <dev-qt/qtshadertools-6.9.3:6 ("<dev-qt/qtshadertools-6.9.3:6" is soft blocking dev-qt/qtbase-6.9.3)
-[binary     U  ] kde-frameworks/kded-6.18.0-1:6/6.18::gentoo [6.16.0:6/6.16::gentoo] USE="man -debug" 100 KiB
-[binary     U  ] kde-frameworks/kstatusnotifieritem-6.18.0-1:6/6.18::gentoo [6.16.0:6/6.16::gentoo] USE="X -debug -test" 150 KiB
-[binary     U  ] dev-qt/qttools-6.9.3-2:6/6.9.3::gentoo [6.9.2:6/6.9.2::gentoo] USE="assistant linguist opengl qdbus qml vulkan widgets (zstd) -clang -custom-cflags -designer -distancefieldgenerator -gles2-only -pixeltool -qdoc -qmlls -qtattributionsscanner -qtdiag -qtplugininfo" LLVM_SLOT="20 -17 -18 -19 (-21)" 1,800 KiB
-[blocks b      ] <dev-qt/qttools-6.9.3:6 ("<dev-qt/qttools-6.9.3:6" is soft blocking dev-qt/qtbase-6.9.3)
-[binary     U  ] kde-frameworks/krunner-6.18.0-1:6/6.18::gentoo [6.16.0:6/6.16::gentoo] USE="-debug -test" 240 KiB
-[binary     U  ] dev-qt/qtpositioning-6.9.3-2:6/6.9.3::gentoo [6.9.2:6/6.9.2::gentoo] USE="qml -custom-cflags -geoclue -nmea -test" 370 KiB
+[binary     U  ] kde-frameworks/kirigami-6.18.0-1 [6.16.0-r1]
+[binary     U  ] kde-frameworks/kiconthemes-6.18.0-1 [6.16.0]
+[binary     U  ] kde-frameworks/kconfigwidgets-6.18.0-1 [6.16.0]
+[binary     U  ] kde-frameworks/kded-6.18.0-1 [6.16.0]
+[binary     U  ] dev-qt/qtshadertools-6.9.3-1 [6.9.2]
+[binary     U  ] dev-qt/qttools-6.9.3-2 [6.9.2] LLVM_SLOT="(-21)" 
+[binary     U  ] kde-frameworks/kstatusnotifieritem-6.18.0-1 [6.16.0]
+[binary     U  ] kde-frameworks/krunner-6.18.0-1 [6.16.0]
+[binary     U  ] dev-qt/qtpositioning-6.9.3-2 [6.9.2]
 [blocks b      ] <dev-qt/qtpositioning-6.9.3:6 ("<dev-qt/qtpositioning-6.9.3:6" is soft blocking dev-qt/qtbase-6.9.3)
-[binary     U  ] dev-qt/qtsensors-6.9.3-1:6/6.9.3::gentoo [6.9.2:6/6.9.2::gentoo] USE="qml -custom-cflags -test" 200 KiB
+[binary     U  ] dev-qt/qtsensors-6.9.3-1 [6.9.2]
 [blocks b      ] <dev-qt/qtsensors-6.9.3:6 ("<dev-qt/qtsensors-6.9.3:6" is soft blocking dev-qt/qtbase-6.9.3)
-[binary     U  ] kde-frameworks/kidletime-6.18.0-1:6/6.18::gentoo [6.16.0:6/6.16::gentoo] USE="X wayland -debug -xscreensaver" 90 KiB
-[binary     U  ] dev-qt/qtquicktimeline-6.9.3-1:6/6.9.3::gentoo [6.9.2:6/6.9.2::gentoo] USE="-custom-cflags -test" 100 KiB
+[binary     U  ] kde-frameworks/kidletime-6.18.0-1 [6.16.0]
+[binary     U  ] dev-qt/qtquicktimeline-6.9.3-1 [6.9.2]
 [blocks b      ] <dev-qt/qtquicktimeline-6.9.3:6 ("<dev-qt/qtquicktimeline-6.9.3:6" is soft blocking dev-qt/qtbase-6.9.3)
-[ebuild     U  ] app-editors/vscodium-1.105.17075::gentoo [1.104.26450::gentoo] USE="wayland -egl -kerberos" 152,621 KiB
-[binary     U  ] app-emulation/virt-manager-5.1.0-1::gentoo [5.0.0-r2::gentoo] USE="gui (policykit) -sasl -verify-sig" PYTHON_SINGLE_TARGET="python3_13 -python3_11 -python3_12" 1,770 KiB
-[ebuild     U  ] net-im/discord-0.0.113::gentoo [0.0.111::gentoo] USE="seccomp wayland -appindicator" L10N="af am ar bg bn ca cs da de el en-GB en-US es es-419 et fa fi fil fr gu he hi hr hu id it ja kn ko lt lv ml mr ms nb nl pl pt-BR pt-PT ro ru sk sl sr sv sw ta te th tr uk ur vi zh-CN zh-TW" 102,941 KiB
-[ebuild     U ~] net-im/vesktop-bin-1.6.1::guru [1.5.8::guru] L10N="af am ar bg bn ca cs da de el en-GB en-US es es-419 et fa fi fil fr gu he hi hr hu id it ja kn ko lt lv ml mr ms nb nl pl pt-BR pt-PT ro ru sk sl sr sv sw ta te th tr uk ur vi zh-CN zh-TW" 109,612 KiB
-[ebuild     U  ] sys-apps/flatpak-1.16.1::gentoo [1.16.0::gentoo] USE="X (policykit) seccomp systemd -doc -introspection -test" 1,197 KiB
-[ebuild     U  ] www-client/brave-browser-1.84.132::another-brave-overlay [1.83.112::another-brave-overlay] USE="qt6 (-selinux)" L10N="af am ar az bg bn ca cs da de el en-GB en-US es es-419 et fa fi fil fr gu he hi hr hu id it ja ka kk km kn ko lo lt lv mk ml mn mr ms my nb nl pl pt-BR pt-PT ro ru si sk sl sq sr sr-Latn sv sw ta te th tr uk ur uz vi zh-CN zh-TW" 122,913 KiB
-[ebuild     U  ] www-client/firefox-bin-144.0.2:rapid::gentoo [143.0.4:rapid::gentoo] USE="gmp-autoupdate wayland (-selinux)" L10N="-ach -af -an -ar -ast -az -be -bg -bn -br -bs -ca -ca-valencia -cak -cs -cy -da -de -dsb -el -en-CA -en-GB -eo -es-AR -es-CL -es-ES -es-MX -et -eu -fa -ff -fi -fr -fy -ga -gd -gl -gn -gu -he -hi -hr -hsb -hu -hy -ia -id -is -it -ja -ka -kab -kk -km -kn -ko -lij -lt -lv -mk -mr -ms -my -nb -ne -nl -nn -oc -pa -pl -pt-BR -pt-PT -rm -ro -ru -sco -si -sk -skr -sl -son -sq -sr -sv -ta -te -th -tl -tr -trs -uk -ur -uz -vi -xh -zh-CN -zh-TW" 77,344 KiB
-[binary     U  ] x11-misc/appmenu-gtk-module-25.04-1::gentoo [24.05-r3::gentoo] USE="wayland -gtk2 -test" 70 KiB
-[binary   R    ] app-admin/system-config-printer-1.5.18-r2-21::gentoo  USE="(policykit) -keyring" PYTHON_SINGLE_TARGET="python3_13 -python3_11 -python3_12 -python3_14%" 950 KiB
-[binary     U  ] kde-frameworks/kxmlgui-6.18.0-1:6/6.18::gentoo [6.16.0:6/6.16::gentoo] USE="-debug -designer -test" 660 KiB
-[binary     U  ] dev-qt/qt5compat-6.9.3-1:6/6.9.3::gentoo [6.9.2:6/6.9.2::gentoo] USE="gui icu qml -custom-cflags -test" 490 KiB
+[ebuild     U  ] app-editors/vscodium-1.105.17075 [1.104.26450]
+[binary     U  ] app-emulation/virt-manager-5.1.0-1 [5.0.0-r2]
+[ebuild     U  ] net-im/discord-0.0.113 [0.0.111]
+[ebuild     U ~] net-im/vesktop-bin-1.6.1 [1.5.8]
+[ebuild     U  ] sys-apps/flatpak-1.16.1 [1.16.0]
+[ebuild     U  ] www-client/brave-browser-1.84.132 [1.83.112]
+[ebuild     U  ] www-client/firefox-bin-144.0.2 [143.0.4]
+[binary     U  ] x11-misc/appmenu-gtk-module-25.04-1 [24.05-r3]
+[binary   R    ] app-admin/system-config-printer-1.5.18-r2-21  PYTHON_SINGLE_TARGET="-python3_14%" 
+[binary     U  ] kde-frameworks/kglobalaccel-6.18.0-1 [6.16.0]
+[binary     U  ] dev-qt/qt5compat-6.9.3-1 [6.9.2]
 [blocks b      ] <dev-qt/qt5compat-6.9.3:6 ("<dev-qt/qt5compat-6.9.3:6" is soft blocking dev-qt/qtbase-6.9.3)
-[binary     U  ] kde-frameworks/ksvg-6.18.0-1:6/6.18::gentoo [6.16.0:6/6.16::gentoo] USE="-debug -test" 180 KiB
-[binary     U  ] kde-frameworks/kbookmarks-6.18.0-1:6/6.18::gentoo [6.16.0:6/6.16::gentoo] USE="-debug -test" 150 KiB
-[binary     U  ] kde-frameworks/kdeclarative-6.18.0-1:6/6.18::gentoo [6.16.0:6/6.16::gentoo] USE="-debug" 200 KiB
-[binary     U  ] dev-qt/qtlocation-6.9.3-1:6/6.9.3::gentoo [6.9.2:6/6.9.2::gentoo] USE="-custom-cflags -test" 660 KiB
+[binary     U  ] kde-frameworks/kauth-6.18.0-1 [6.16.0]
+[binary     U  ] kde-frameworks/kjobwidgets-6.18.0-1 [6.16.0]
+[binary     U  ] kde-frameworks/ksvg-6.18.0-1 [6.16.0]
+[binary     U  ] kde-frameworks/kbookmarks-6.18.0-1 [6.16.0]
+[binary     U  ] dev-qt/qtlocation-6.9.3-1 [6.9.2]
 [blocks b      ] <dev-qt/qtlocation-6.9.3:6 ("<dev-qt/qtlocation-6.9.3:6" is soft blocking dev-qt/qtbase-6.9.3)
-[binary     U  ] dev-qt/qtquick3d-6.9.3-2:6/6.9.3::gentoo [6.9.2-r1:6/6.9.2::gentoo] USE="opengl vulkan -custom-cflags -test" 5,630 KiB
+[binary     U  ] dev-qt/qtquick3d-6.9.3-2 [6.9.2-r1]
 [blocks b      ] <dev-qt/qtquick3d-6.9.3:6 ("<dev-qt/qtquick3d-6.9.3:6" is soft blocking dev-qt/qtbase-6.9.3)
-[binary     U  ] app-cdr/isoimagewriter-25.08.2-1:6::gentoo [25.04.3:6::gentoo] USE="-debug" 190 KiB
-[binary     U  ] kde-frameworks/kio-6.18.0-1:6/6.18::gentoo [6.16.0-r1:6/6.16::gentoo] USE="X acl handbook kwallet wayland -debug -designer -test" 3,480 KiB
-[binary     U  ] kde-frameworks/qqc2-desktop-style-6.18.0-1:6/6.18::gentoo [6.16.0:6/6.16::gentoo] USE="-debug -test" 530 KiB
-[binary     U  ] kde-frameworks/kcmutils-6.18.0-1:6/6.18::gentoo [6.16.0:6/6.16::gentoo] USE="-debug -test" 300 KiB
-[binary     U  ] kde-frameworks/kparts-6.18.0-1:6/6.18::gentoo [6.16.0:6/6.16::gentoo] USE="-debug -test" 200 KiB
-[binary     U  ] kde-frameworks/baloo-6.18.0-1:6/6.18::gentoo [6.16.0:6/6.16::gentoo] USE="-debug -test" 510 KiB
-[binary     U  ] kde-frameworks/purpose-6.18.0-1:6/6.18::gentoo [6.16.0:6/6.16::gentoo] USE="bluetooth -debug -test -webengine" 380 KiB
-[binary     U  ] kde-frameworks/knewstuff-6.18.0-1:6/6.18::gentoo [6.16.0:6/6.16::gentoo] USE="-debug -designer -opds" 620 KiB
-[binary     U  ] kde-apps/kwalletmanager-25.08.2-1:6::gentoo [25.04.3:6::gentoo] USE="handbook -debug" 1,220 KiB
-[binary     U  ] kde-plasma/kwin-6.4.5-r1-1:6::gentoo [6.4.5:6::gentoo] USE="(X) (filecaps) handbook lock screencast shortcuts systemd -accessibility -debug -gles2-only -test" 9,990 KiB
-[binary     U  ] kde-frameworks/frameworkintegration-6.18.0-1:6/6.18::gentoo [6.16.0:6/6.16::gentoo] USE="-debug -test" 100 KiB
-[binary     U  ] kde-plasma/sddm-kcm-6.4.5-r1-1:6::gentoo [6.4.5:6::gentoo] USE="-debug" 170 KiB
-[binary     U  ] dev-qt/qtimageformats-6.9.3-1:6/6.9.3::gentoo [6.9.2:6/6.9.2::gentoo] USE="mng -custom-cflags -test" 90 KiB
+[binary     U  ] app-cdr/isoimagewriter-25.08.2-1 [25.04.3]
+[binary     U  ] kde-frameworks/kio-6.18.0-1 [6.16.0-r1]
+[binary     U  ] kde-frameworks/kxmlgui-6.18.0-1 [6.16.0]
+[binary     U  ] kde-frameworks/kdeclarative-6.18.0-1 [6.16.0]
+[binary     U  ] kde-frameworks/qqc2-desktop-style-6.18.0-1 [6.16.0]
+[binary     U  ] kde-frameworks/kcmutils-6.18.0-1 [6.16.0]
+[binary     U  ] kde-frameworks/kparts-6.18.0-1 [6.16.0]
+[binary     U  ] kde-frameworks/baloo-6.18.0-1 [6.16.0]
+[binary     U  ] kde-frameworks/purpose-6.18.0-1 [6.16.0]
+[binary     U  ] kde-frameworks/knewstuff-6.18.0-1 [6.16.0]
+[binary     U  ] kde-apps/kwalletmanager-25.08.2-1 [25.04.3]
+[binary     U  ] kde-plasma/kwin-6.4.5-r1-1 [6.4.5]
+[binary     U  ] kde-frameworks/frameworkintegration-6.18.0-1 [6.16.0]
+[binary     U  ] kde-plasma/sddm-kcm-6.4.5-r1-1 [6.4.5]
+[binary     U  ] dev-qt/qtimageformats-6.9.3-1 [6.9.2]
 [blocks b      ] <dev-qt/qtimageformats-6.9.3:6 ("<dev-qt/qtimageformats-6.9.3:6" is soft blocking dev-qt/qtbase-6.9.3)
-[binary     U  ] kde-frameworks/knotifyconfig-6.18.0-1:6/6.18::gentoo [6.16.0:6/6.16::gentoo] USE="-debug" 90 KiB
-[binary     U  ] kde-frameworks/ktexteditor-6.18.0-1:6/6.18::gentoo [6.16.0:6/6.16::gentoo] USE="editorconfig -debug -test" 2,740 KiB
-[binary     U  ] kde-plasma/plasma-workspace-6.4.5-r3-4:6::gentoo [6.4.5-r1:6::gentoo] USE="X calendar fontconfig handbook ksysguard networkmanager (policykit) screencast semantic-desktop systemd wallpaper-metadata -appstream -debug -phonon% -telemetry -test" 21,680 KiB
-[binary     U  ] kde-plasma/plasma-desktop-6.4.5-r1-1:6::gentoo [6.4.5:6::gentoo] USE="handbook screencast sdl semantic-desktop -debug -ibus -scim -test -webengine" INPUT_DEVICES="-wacom" 16,870 KiB
-[ebuild     U  ] dev-qt/qtmultimedia-6.9.3:6/6.9.3::gentoo [6.9.2:6/6.9.2::gentoo] USE="X alsa dbus ffmpeg opengl pipewire qml vulkan wayland -custom-cflags -eglfs -gstreamer -pulseaudio -test -v4l -vaapi" 9,543 KiB
+[binary     U  ] kde-frameworks/knotifyconfig-6.18.0-1 [6.16.0]
+[binary     U  ] kde-frameworks/ktexteditor-6.18.0-1 [6.16.0]
+[binary     U  ] kde-plasma/plasma-workspace-6.4.5-r3-4 [6.4.5-r1] USE="-phonon%" 
+[binary     U  ] kde-plasma/plasma-desktop-6.4.5-r1-1 [6.4.5]
+[ebuild     U  ] dev-qt/qtmultimedia-6.9.3 [6.9.2]
 [blocks b      ] <dev-qt/qtmultimedia-6.9.3:6 ("<dev-qt/qtmultimedia-6.9.3:6" is soft blocking dev-qt/qtbase-6.9.3)
-[binary     U  ] dev-qt/qtspeech-6.9.3-1:6/6.9.3::gentoo [6.9.2:6/6.9.2::gentoo] USE="qml speechd -custom-cflags -flite" 130 KiB
+[binary     U  ] dev-qt/qtspeech-6.9.3-1 [6.9.2]
 [blocks b      ] <dev-qt/qtspeech-6.9.3:6 ("<dev-qt/qtspeech-6.9.3:6" is soft blocking dev-qt/qtbase-6.9.3)
-[binary     U  ] kde-apps/dolphin-25.08.2-1:6::gentoo [25.04.3:6::gentoo] USE="handbook semantic-desktop -debug -telemetry -test" 4,710 KiB
-[ebuild     U  ] gui-libs/gtk-4.18.6-r1:4::gentoo [4.16.13:4::gentoo] USE="X cups introspection vulkan wayland (-aqua) -broadway -cloudproviders -colord -examples -gstreamer -gtk-doc% -sysprof -test" CPU_FLAGS_X86="f16c" 17,296 KiB
-[binary     U  ] gui-libs/libadwaita-1.7.7-1:1::gentoo [1.6.2-r1:1::gentoo] USE="introspection vala -doc% -test" 720 KiB
-[ebuild     U  ] gui-libs/gtksourceview-5.16.0:5::gentoo [5.14.2-r1:5::gentoo] USE="introspection vala -gtk-doc -sysprof -test" 1,231 KiB
-[binary     U  ] dev-cpp/gtkmm-4.18.0-r1-1:4.0::gentoo [4.14.0-r1:4.0::gentoo] USE="-gtk-doc -test" 1,520 KiB
-[binary     U  ] sys-apps/xdg-desktop-portal-gnome-48.0-1::gentoo [47.3::gentoo] USE="X wayland" 260 KiB
-[ebuild   R    ] media-libs/libwebp-1.5.0:0/7::gentoo  USE="gif jpeg opengl png tiff -static-libs -swap-16bit-csp" ABI_X86="32* (64) (-x32)" CPU_FLAGS_X86="sse2 sse4_1" 0 KiB
-[ebuild   R    ] media-libs/tiff-4.7.0-r1:0/6::gentoo  USE="cxx jpeg opengl webp* zlib -jbig -lerc -libdeflate -lzma -static-libs -test -verify-sig -zstd" ABI_X86="32 (64) (-x32)" 0 KiB
-[ebuild   R    ] media-video/ffmpeg-7.1.2:0/59.61.61::gentoo  USE="X alsa bzip2 dav1d drm dvd fontconfig gnutls gpl jpegxl* lcms libass nvenc opengl opus postproc sdl svg truetype vaapi vorbis vulkan webp* x264 x265 xml xvid zlib -amf -amr -amrenc (-appkit) -bluray -bs2b -cdio -chromaprint -chromium -codec2 (-cuda) -doc -fdk -flite -frei0r -fribidi -gcrypt -gme -gmp -gsm -iec61883 -ieee1394 -jack -jpeg2k -kvazaar -ladspa -lame -libaom -libaribb24 -libcaca -libilbc -liblc3 -libplacebo -librtmp -libsoxr -libtesseract -lv2 -lzma -modplug -openal -opencl -openh264 -openmpt -openssl -pulseaudio -qrcode -qsv -quirc -rabbitmq -rav1e -rubberband -samba -shaderc -snappy -sndio -soc -speex -srt -ssh -svt-av1 -theora -twolame -v4l -vdpau -verify-sig -vidstab (-vmaf) -vpx -zeromq -zimg -zvbi (-npp%)" ABI_X86="(64) -32 (-x32)" 0 KiB
-[binary     U  ] net-libs/webkit-gtk-2.48.5-r411-14:4.1/0::gentoo [2.48.5-r410:4.1/0::gentoo] USE="X avif* gstreamer introspection jpegxl* jumbo-build lcms pdf (seccomp) spell systemd wayland (-aqua) -examples -gamepad -keyring" 33,110 KiB
-[binary   R    ] dev-python/pillow-11.3.0-10::gentoo  USE="avif* jpeg lcms tiff truetype webp* xcb zlib -debug -examples -imagequant -jpeg2k -test -tk" PYTHON_TARGETS="python3_13 (-pypy3_11) -python3_11 -python3_12 -python3_14" 880 KiB
-[binary     U  ] app-office/libreoffice-25.2.6.2-11::gentoo [25.2.5.2::gentoo] USE="bluetooth branding cups dbus gtk3 kde mariadb qt6 vulkan -accessibility -base (-coinmp) -custom-cflags -debug -eds -googledrive -gstreamer -gtk4 -java -ldap -odk -pdfimport -postgres -test -valgrind" LIBREOFFICE_EXTENSIONS="-nlpsolver -scripting-beanshell -scripting-javascript -wiki-publisher" PYTHON_SINGLE_TARGET="python3_13 -python3_11 -python3_12" 135,380 KiB
-[ebuild   R    ] media-libs/imlib2-1.12.5::gentoo  USE="X avif* bzip2 filters gif jpeg jpegxl* mp3 png shm svg text tiff tools webp zlib -apidoc -debug -eps -heif -jpeg2k -lzma -packing -raw -static-libs -y4m" ABI_X86="(64) -32 (-x32)" CPU_FLAGS_X86="sse2 (-mmx)" 0 KiB
-[ebuild   R    ] media-libs/opencv-4.11.0-r1:0/4.11.0::gentoo  USE="avif* contrib contribdnn eigen features2d ffmpeg gif jpeg opengl openmp png qt6 tiff truetype vulkan wayland webp* -atlas (-contribcvv) -contribfreetype (-contribhdf) (-contribovis) (-contribsfm) (-contribxfeatures2d) (-cuda) (-cudnn) -debug -dnnsamples -doc -examples -gdal (-gflags) (-glog) -gphoto2 -gstreamer -gtk3 -ieee1394 -jasper -java -jpeg2k -lapack (-mkl) -non-free -opencl -opencvapps -openexr -openni -openni2 -python -quirc -spng -tbb (-tesseract) -test -testprograms -v4l -vaapi (-vtk) -xine" ABI_X86="(64) -32 (-x32)" CPU_FLAGS_X86="avx avx2 f16c fma3 popcnt sse sse2 sse3 sse4_1 sse4_2 ssse3 -avx512_4fmaps -avx512_4vnniw -avx512_bitalg -avx512_vbmi2 -avx512_vnni -avx512_vpopcntdq -avx512bw -avx512cd -avx512dq -avx512er -avx512f -avx512ifma -avx512pf -avx512vbmi -avx512vl" PYTHON_TARGETS="python3_13 -python3_11 -python3_12" VIDEO_CARDS="intel" 0 KiB
-[blocks B      ] sys-kernel/gentoo-kernel-bin:6.12.47 ("sys-kernel/gentoo-kernel-bin:6.12.47" is soft blocking sys-kernel/gentoo-kernel-6.12.47)
-[blocks B      ] <dev-qt/qtwayland-6.9.3:6 ("<dev-qt/qtwayland-6.9.3:6" is soft blocking dev-qt/qtbase-6.9.3)
+[binary     U  ] kde-apps/dolphin-25.08.2-1 [25.04.3]
+[ebuild     U  ] gui-libs/gtk-4.18.6-r1 [4.16.13] USE="-gtk-doc%" 
+[binary     U  ] gui-libs/libadwaita-1.7.7-1 [1.6.2-r1] USE="-doc%" 
+[ebuild     U  ] gui-libs/gtksourceview-5.16.0 [5.14.2-r1]
+[binary     U  ] dev-cpp/gtkmm-4.18.0-r1-1 [4.14.0-r1]
+[binary     U  ] sys-apps/xdg-desktop-portal-gnome-48.0-1 [47.3]
+[ebuild   R    ] media-libs/libwebp-1.5.0  ABI_X86="32*" 
+[ebuild   R    ] media-libs/tiff-4.7.0-r1  USE="webp*" 
+[ebuild   R    ] media-video/ffmpeg-7.1.2  USE="jpegxl* webp* (-npp%)" 
+[binary     U  ] net-libs/webkit-gtk-2.48.5-r411-14 [2.48.5-r410] USE="avif* jpegxl*" 
+[binary   R    ] dev-python/pillow-11.3.0-10  USE="avif* webp*" 
+[binary     U  ] app-office/libreoffice-25.2.6.2-11 [25.2.5.2]
+[ebuild   R    ] media-libs/imlib2-1.12.5  USE="avif* jpegxl*" 
+[ebuild   R    ] media-libs/opencv-4.11.0-r1  USE="avif* webp*" 
 [blocks B      ] <dev-qt/qtdeclarative-6.9.3:6 ("<dev-qt/qtdeclarative-6.9.3:6" is soft blocking dev-qt/qtbase-6.9.3)
-[blocks B      ] <dev-qt/qtsvg-6.9.3:6 ("<dev-qt/qtsvg-6.9.3:6" is soft blocking dev-qt/qtbase-6.9.3)
 [blocks B      ] sys-kernel/gentoo-kernel:6.12.47 ("sys-kernel/gentoo-kernel:6.12.47" is soft blocking sys-kernel/gentoo-kernel-bin-6.12.47)
-
-Total: 265 packages (207 upgrades, 1 downgrade, 8 new, 1 in new slot, 48 reinstalls, 218 binaries), Size of downloads: 1,615,150 KiB
-Conflict: 18 blocks (5 unsatisfied)
+[blocks B      ] <dev-qt/qtsvg-6.9.3:6 ("<dev-qt/qtsvg-6.9.3:6" is soft blocking dev-qt/qtbase-6.9.3)
+[blocks B      ] <dev-qt/qttools-6.9.3:6 ("<dev-qt/qttools-6.9.3:6" is soft blocking dev-qt/qtbase-6.9.3)
+[blocks B      ] <dev-qt/qtwayland-6.9.3:6 ("<dev-qt/qtwayland-6.9.3:6" is soft blocking dev-qt/qtbase-6.9.3)
+[blocks B      ] sys-kernel/gentoo-kernel-bin:6.12.47 ("sys-kernel/gentoo-kernel-bin:6.12.47" is soft blocking sys-kernel/gentoo-kernel-6.12.47)
+[blocks B      ] <dev-qt/qtshadertools-6.9.3:6 ("<dev-qt/qtshadertools-6.9.3:6" is soft blocking dev-qt/qtbase-6.9.3)
 
 !!! Multiple package instances within a single package slot have been pulled
 !!! into the dependency graph, resulting in a slot conflict:
 
+dev-libs/libxml2:2
+
+  (dev-libs/libxml2-2.13.9-4:2/2::gentoo, installed) USE="icu python readline -examples -lzma -static-libs -test" ABI_X86="32 (64) (-x32)" PYTHON_TARGETS="python3_13 -python3_11 -python3_12 -python3_14" pulled in by
+    >=dev-libs/libxml2-2.9.1:2/2= required by (app-emulation/libvirt-11.1.0-r1-2:0/11.1.0::gentoo, installed) USE="caps libvirtd nls (policykit) qemu udev virt-network -apparmor -audit -bash-completion -dtrace -firewalld -fuse -glusterfs -iscsi -iscsi-direct -libssh -libssh2 -lvm -lxc -nbd -nfs -numa -parted -pcap -rbd -sasl (-selinux) -test -verify-sig -virtiofsd -virtualbox -wireshark-plugins -xen -zfs" ABI_X86="(64)"
+                            ^^^^^                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+    dev-libs/libxml2:2/2= required by (app-text/libabw-0.1.3-r1-1:0/0::gentoo, installed) USE="-doc" ABI_X86="(64)"
+                    ^^^^^                                                                                                                                                                    
+    (and 25 more with the same problems)
+
+  (dev-libs/libxml2-2.14.6-14:2/16::gentoo, binary scheduled for merge) USE="icu python readline -static-libs -test" ABI_X86="32 (64) (-x32)" PYTHON_TARGETS="python3_13 -python3_11 -python3_12 -python3_14" pulled in by
+    dev-libs/libxml2:2/16= required by (kde-frameworks/kio-6.18.0-1:6/6.18::gentoo, binary scheduled for merge) USE="X acl handbook kwallet wayland -debug -designer -test" ABI_X86="(64)"
+                    ^^^^^^                                                                                                                                                                                                                                                                                                                                                                               
+    (and 11 more with the same problem)
+
 dev-qt/qtbase:6
 
   (dev-qt/qtbase-6.9.3-4:6/6.9.3::gentoo, binary scheduled for merge) USE="X concurrent cups dbus gtk gui icu libinput libproxy mysql network nls opengl sql sqlite ssl udev vulkan wayland widgets xml (zstd) -accessibility -brotli -custom-cflags -eglfs -evdev -gles2-only -gssapi -journald -oci8 -odbc -postgres -renderdoc -sctp -syslog -test -tslib" ABI_X86="(64)" pulled in by
-    ~dev-qt/qtbase-6.9.3:6[dbus?] required by (dev-qt/qtmultimedia-6.9.3:6/6.9.3::gentoo, ebuild scheduled for merge) USE="X alsa dbus ffmpeg opengl pipewire qml vulkan wayland -custom-cflags -eglfs -gstreamer -pulseaudio -test -v4l -vaapi" ABI_X86="(64)"
-    ^              ^^^^^^^                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
-    >=dev-qt/qtbase-6.7.2:6/6.9.3=[gui] required by (kde-frameworks/kio-6.18.0-1:6/6.18::gentoo, binary scheduled for merge) USE="X acl handbook kwallet wayland -debug -designer -test" ABI_X86="(64)"
-                         ^^^^^^^^^                                                                                                                                                                                                                                                                                                                                                                                    
-    (and 35 more with the same problems)
+    ~dev-qt/qtbase-6.9.3:6 required by (dev-qt/qtpositioning-6.9.3-2:6/6.9.3::gentoo, binary scheduled for merge) USE="qml -custom-cflags -geoclue -nmea -test" ABI_X86="(64)"
+    ^              ^^^^^^^                                                                                                                                                                                                                                                                                                                                                
+    >=dev-qt/qtbase-6.7.2:6/6.9.3=[wayland] required by (kde-frameworks/kwindowsystem-6.18.0-1:6/6.18::gentoo, binary scheduled for merge) USE="X wayland -debug -test" ABI_X86="(64)"
+                         ^^^^^^^^^                                                                                                                                                                                                                                                                                       
+    (and 36 more with the same problems)
 
   (dev-qt/qtbase-6.9.2-1:6/6.9.2::gentoo, installed) USE="X concurrent cups dbus gtk gui icu libinput libproxy mysql network nls opengl sql sqlite ssl udev vulkan wayland widgets xml (zstd) -accessibility -brotli -custom-cflags -eglfs -evdev -gles2-only -gssapi -journald -oci8 -odbc -postgres -renderdoc -sctp -syslog -test -tslib" ABI_X86="(64)" pulled in by
-    >=dev-qt/qtbase-6.7.2:6/6.9.2=[wayland] required by (kde-frameworks/kidletime-6.16.0-2:6/6.16::gentoo, installed) USE="X wayland -debug -xscreensaver" ABI_X86="(64)"
-                         ^^^^^^^^^                                                                                                                                                                                                                                                                          
-    >=dev-qt/qtbase-6.7.2:6/6.9.2=[gui,X] required by (kde-frameworks/kwindowsystem-6.16.0-r1-2:6/6.16::gentoo, installed) USE="X wayland -debug -test" ABI_X86="(64)"
-                         ^^^^^^^^^                                                                                                                                                                                                                                                                       
-    >=dev-qt/qtbase-6.8.1:6/6.9.2=[dbus,gui,wayland] required by (kde-plasma/libkscreen-6.4.5-2:6/8::gentoo, installed) USE="-debug -doc -test" ABI_X86="(64)"
-                         ^^^^^^^^^                                                                                                                                                                                                                                            
     >=dev-qt/qtbase-6.7.2:6/6.9.2=[wayland] required by (kde-frameworks/kwindowsystem-6.16.0-r1-2:6/6.16::gentoo, installed) USE="X wayland -debug -test" ABI_X86="(64)"
                          ^^^^^^^^^                                                                                                                                                                                                                                                                         
+    >=dev-qt/qtbase-6.8.1:6/6.9.2=[gui,X] required by (kde-plasma/kde-cli-tools-6.4.5-2:6/6::gentoo, installed) USE="X -debug -kdesu" ABI_X86="(64)"
+                         ^^^^^^^^^                                                                                                                                                                                                                                  
     ~dev-qt/qtbase-6.9.2:6[gui,widgets] required by (dev-qt/qtsvg-6.9.2-1:6/6.9.2::gentoo, installed) USE="-custom-cflags -test" ABI_X86="(64)"
     ^              ^^^^^^^                                                                                                                                                                                                                                                        
-    (and 17 more with the same problems)
-
-dev-libs/libxml2:2
-
-  (dev-libs/libxml2-2.14.6-14:2/16::gentoo, binary scheduled for merge) USE="icu python readline -static-libs -test" ABI_X86="32 (64) (-x32)" PYTHON_TARGETS="python3_13 -python3_11 -python3_12 -python3_14" pulled in by
-    dev-libs/libxml2:2/16= required by (net-libs/webkit-gtk-2.48.5-r411-14:4.1/0::gentoo, binary scheduled for merge) USE="X avif gstreamer introspection jpegxl jumbo-build lcms pdf (seccomp) spell systemd wayland (-aqua) -examples -gamepad -keyring" ABI_X86="(64)"
-                    ^^^^^^                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
-    (and 12 more with the same problem)
-
-  (dev-libs/libxml2-2.13.9-4:2/2::gentoo, installed) USE="icu python readline -examples -lzma -static-libs -test" ABI_X86="32 (64) (-x32)" PYTHON_TARGETS="python3_13 -python3_11 -python3_12 -python3_14" pulled in by
-    dev-libs/libxml2:2/2=[abi_x86_32(-),abi_x86_64(-)] required by (x11-libs/libxkbcommon-1.11.0:0/0::gentoo, installed) USE="X wayland -doc -static-libs -test -tools" ABI_X86="32 (64) (-x32)"
-                    ^^^^^                                                                                                                                                                                                                                                                                                                                                                                      
-    (and 24 more with the same problem)
+    >=dev-qt/qtbase-6.7.2:6/6.9.2=[gui,X] required by (kde-frameworks/kwindowsystem-6.16.0-r1-2:6/6.16::gentoo, installed) USE="X wayland -debug -test" ABI_X86="(64)"
+                         ^^^^^^^^^                                                                                                                                                                                                                                                                       
+    >=dev-qt/qtbase-6.7.2:6/6.9.2=[wayland] required by (kde-frameworks/kidletime-6.16.0-2:6/6.16::gentoo, installed) USE="X wayland -debug -xscreensaver" ABI_X86="(64)"
+                         ^^^^^^^^^                                                                                                                                                                                                                                                                          
+    (and 23 more with the same problems)
 
 dev-qt/qtsvg:6
 
   (dev-qt/qtsvg-6.9.3-2:6/6.9.3::gentoo, binary scheduled for merge) USE="-custom-cflags -test" ABI_X86="(64)" pulled in by
-    ~dev-qt/qtsvg-6.9.3:6 required by (dev-qt/qtwayland-6.9.3-2:6/6.9.3::gentoo, binary scheduled for merge) USE="gnome qml vulkan -accessibility -compositor -custom-cflags -test" ABI_X86="(64)"
-    ^             ^^^^^^^                                                                                                                                                                                                                                                                                                                                                                                                           
+    ~dev-qt/qtsvg-6.9.3:6 required by (dev-qt/qtdeclarative-6.9.3-r1-1:6/6.9.3::gentoo, binary scheduled for merge) USE="jit network opengl sql ssl svg vulkan widgets -accessibility -custom-cflags -qmlls" ABI_X86="(64)"
+    ^             ^^^^^^^                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
     (and 1 more with the same problem)
 
   (dev-qt/qtsvg-6.9.2-1:6/6.9.2::gentoo, installed) USE="-custom-cflags -test" ABI_X86="(64)" pulled in by
-    ~dev-qt/qtsvg-6.9.2:6 required by (dev-qt/qtdeclarative-6.9.2-r1-1:6/6.9.2::gentoo, installed) USE="jit network opengl sql ssl svg vulkan widgets -accessibility -custom-cflags -qmlls" ABI_X86="(64)"
-    ^             ^^^^^^^                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+    ~dev-qt/qtsvg-6.9.2:6 required by (dev-qt/qtwayland-6.9.2-2:6/6.9.2::gentoo, installed) USE="gnome qml vulkan -accessibility -compositor -custom-cflags -test" ABI_X86="(64)"
+    ^             ^^^^^^^                                                                                                                                                                                                                                                                                                                                                                                          
     (and 1 more with the same problem)
+
+dev-qt/qttools:6
+
+  (dev-qt/qttools-6.9.3-2:6/6.9.3::gentoo, binary scheduled for merge) USE="assistant linguist opengl qdbus qml vulkan widgets (zstd) -clang -custom-cflags -designer -distancefieldgenerator -gles2-only -pixeltool -qdoc -qmlls -qtattributionsscanner -qtdiag -qtplugininfo" ABI_X86="(64)" LLVM_SLOT="20 -17 -18 -19 (-21)" pulled in by
+    ~dev-qt/qttools-6.9.3:6[linguist] required by (dev-qt/qttranslations-6.9.3-1:6/6.9.3::gentoo, binary scheduled for merge) USE="-custom-cflags" ABI_X86="(64)"
+    ^               ^^^^^^^                                                                                                                                                                                                                                                      
+
+  (dev-qt/qttools-6.9.2-2:6/6.9.2::gentoo, installed) USE="assistant linguist opengl qdbus qml vulkan widgets (zstd) -clang -custom-cflags -designer -distancefieldgenerator -gles2-only -pixeltool -qdoc -qmlls -qtattributionsscanner -qtdiag -qtplugininfo" ABI_X86="(64)" LLVM_SLOT="20 -17 -18 -19" pulled in by
+    ~dev-qt/qttools-6.9.2:6[linguist] required by (dev-qt/qttranslations-6.9.2-1:6/6.9.2::gentoo, installed) USE="-custom-cflags" ABI_X86="(64)"
+    ^               ^^^^^^^                                                                                                                                                                                                                                     
+
+dev-qt/qtdeclarative:6
+
+  (dev-qt/qtdeclarative-6.9.3-r1-1:6/6.9.3::gentoo, binary scheduled for merge) USE="jit network opengl sql ssl svg vulkan widgets -accessibility -custom-cflags -qmlls" ABI_X86="(64)" pulled in by
+    ~dev-qt/qtdeclarative-6.9.3:6 required by (dev-qt/qtmultimedia-6.9.3:6/6.9.3::gentoo, ebuild scheduled for merge) USE="X alsa dbus ffmpeg opengl pipewire qml vulkan wayland -custom-cflags -eglfs -gstreamer -pulseaudio -test -v4l -vaapi" ABI_X86="(64)"
+    ^                     ^^^^^^^                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+    >=dev-qt/qtdeclarative-6.7.2:6/6.9.3= required by (kde-frameworks/qqc2-desktop-style-6.18.0-1:6/6.18::gentoo, binary scheduled for merge) USE="-debug -test" ABI_X86="(64)"
+                                ^^^^^^^^^                                                                                                                                                                                                                                   
+    (and 8 more with the same problems)
+
+  (dev-qt/qtdeclarative-6.9.2-r1-1:6/6.9.2::gentoo, installed) USE="jit network opengl sql ssl svg vulkan widgets -accessibility -custom-cflags -qmlls" ABI_X86="(64)" pulled in by
+    ~dev-qt/qtdeclarative-6.9.2:6[widgets] required by (dev-qt/qttools-6.9.2-2:6/6.9.2::gentoo, installed) USE="assistant linguist opengl qdbus qml vulkan widgets (zstd) -clang -custom-cflags -designer -distancefieldgenerator -gles2-only -pixeltool -qdoc -qmlls -qtattributionsscanner -qtdiag -qtplugininfo" ABI_X86="(64)" LLVM_SLOT="20 -17 -18 -19"
+    ^                     ^^^^^^^                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+    dev-qt/qtdeclarative:6/6.9.2= required by (dev-libs/qcoro-0.12.0-3:0/0::gentoo, installed) USE="dbus network qml -examples -test -websockets" ABI_X86="(64)"
+                        ^^^^^^^^^                                                                                                                                                                                                                                                                                                        
+
+dev-qt/qtshadertools:6
+
+  (dev-qt/qtshadertools-6.9.2-1:6/6.9.2::gentoo, installed) USE="-custom-cflags -test" ABI_X86="(64)" pulled in by
+    ~dev-qt/qtshadertools-6.9.2:6 required by (dev-qt/qtdeclarative-6.9.2-r1-1:6/6.9.2::gentoo, installed) USE="jit network opengl sql ssl svg vulkan widgets -accessibility -custom-cflags -qmlls" ABI_X86="(64)"
+    ^                     ^^^^^^^                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+
+  (dev-qt/qtshadertools-6.9.3-1:6/6.9.3::gentoo, binary scheduled for merge) USE="-custom-cflags -test" ABI_X86="(64)" pulled in by
+    ~dev-qt/qtshadertools-6.9.3:6 required by (dev-qt/qtquick3d-6.9.3-2:6/6.9.3::gentoo, binary scheduled for merge) USE="opengl vulkan -custom-cflags -test" ABI_X86="(64)"
+    ^                     ^^^^^^^                                                                                                                                                                                                                                                                                                                    
+    (and 3 more with the same problem)
 
 dev-qt/qtwayland:6
 
@@ -359,28 +412,15 @@ dev-qt/qttranslations:6
 kde-frameworks/kwindowsystem:6
 
   (kde-frameworks/kwindowsystem-6.18.0-1:6/6.18::gentoo, binary scheduled for merge) USE="X wayland -debug -test" ABI_X86="(64)" pulled in by
+    =kde-frameworks/kwindowsystem-6.18*:6[X] required by (kde-frameworks/kstatusnotifieritem-6.18.0-1:6/6.18::gentoo, binary scheduled for merge) USE="X -debug -test" ABI_X86="(64)"
+    ^                             ^^^^^^^                                                                                                                                                                                                                                                                                                  
     >=kde-frameworks/kwindowsystem-6.16.0:6/6.18=[wayland] required by (kde-plasma/kwin-6.4.5-r1-1:6/6::gentoo, binary scheduled for merge) USE="(X) (filecaps) handbook lock screencast shortcuts systemd -accessibility -debug -gles2-only -test" ABI_X86="(64)"
                                          ^^^^^^^^                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
-    =kde-frameworks/kwindowsystem-6.18*:6[wayland] required by (kde-frameworks/krunner-6.18.0-1:6/6.18::gentoo, binary scheduled for merge) USE="-debug -test" ABI_X86="(64)"
-    ^                             ^^^^^^^                                                                                                                                                                                                                                                                       
     (and 4 more with the same problems)
 
   (kde-frameworks/kwindowsystem-6.16.0-r1-2:6/6.16::gentoo, installed) USE="X wayland -debug -test" ABI_X86="(64)" pulled in by
     >=kde-frameworks/kwindowsystem-6.16.0:6/6.16=[wayland,X] required by (kde-plasma/kwin-x11-6.4.5-2:6/6::gentoo, installed) USE="handbook lock shortcuts systemd -accessibility -debug -gles2-only -test" ABI_X86="(64)"
                                          ^^^^^^^^                                                                                                                                                                                                                                                                                                                                                                                        
-
-dev-qt/qtdeclarative:6
-
-  (dev-qt/qtdeclarative-6.9.3-r1-1:6/6.9.3::gentoo, binary scheduled for merge) USE="jit network opengl sql ssl svg vulkan widgets -accessibility -custom-cflags -qmlls" ABI_X86="(64)" pulled in by
-    >=dev-qt/qtdeclarative-6.7.2:6/6.9.3= required by (kde-frameworks/qqc2-desktop-style-6.18.0-1:6/6.18::gentoo, binary scheduled for merge) USE="-debug -test" ABI_X86="(64)"
-                                ^^^^^^^^^                                                                                                                                                                                                                                   
-    ~dev-qt/qtdeclarative-6.9.3:6 required by (dev-qt/qt5compat-6.9.3-1:6/6.9.3::gentoo, binary scheduled for merge) USE="gui icu qml -custom-cflags -test" ABI_X86="(64)"
-    ^                     ^^^^^^^                                                                                                                                                                                                                                                                                                                                     
-    (and 8 more with the same problems)
-
-  (dev-qt/qtdeclarative-6.9.2-r1-1:6/6.9.2::gentoo, installed) USE="jit network opengl sql ssl svg vulkan widgets -accessibility -custom-cflags -qmlls" ABI_X86="(64)" pulled in by
-    dev-qt/qtdeclarative:6/6.9.2= required by (dev-libs/qcoro-0.12.0-3:0/0::gentoo, installed) USE="dbus network qml -examples -test -websockets" ABI_X86="(64)"
-                        ^^^^^^^^^                                                                                                                                                                                                                                                                                                        
 
 kde-frameworks/kidletime:6
 
@@ -394,14 +434,25 @@ kde-frameworks/kidletime:6
     =kde-frameworks/kidletime-6.18*:6 required by (kde-frameworks/baloo-6.18.0-1:6/6.18::gentoo, binary scheduled for merge) USE="-debug -test" ABI_X86="(64)"
     ^                         ^^^^^^^                                                                                                                                                                                                                                                            
 
+app-emulation/libvirt:0
+
+  (app-emulation/libvirt-11.6.0-r2-1:0/11.6.0::gentoo, binary scheduled for merge) USE="caps libvirtd nls (policykit) qemu udev virt-network -apparmor -audit -bash-completion -dtrace -firewalld -fuse -glusterfs -iscsi -iscsi-direct -libssh -libssh2 -lvm -lxc -nbd -nfs -numa -parted -pcap -rbd -sasl (-selinux) -test -verify-sig -virtiofsd -virtualbox -wireshark-plugins -xen -zfs" ABI_X86="(64)" pulled in by
+    app-emulation/libvirt:0/11.6.0 required by (dev-python/libvirt-python-11.6.0-1:0/0::gentoo, binary scheduled for merge) USE="-debug -examples -test -verify-sig" ABI_X86="(64)" PYTHON_TARGETS="python3_13 -python3_11 -python3_12 -python3_14"
+                         ^^^^^^^^^                                                                                                                                                                                                                                                                                                                                                                                                                                
+
+  (app-emulation/libvirt-11.1.0-r1-2:0/11.1.0::gentoo, installed) USE="caps libvirtd nls (policykit) qemu udev virt-network -apparmor -audit -bash-completion -dtrace -firewalld -fuse -glusterfs -iscsi -iscsi-direct -libssh -libssh2 -lvm -lxc -nbd -nfs -numa -parted -pcap -rbd -sasl (-selinux) -test -verify-sig -virtiofsd -virtualbox -wireshark-plugins -xen -zfs" ABI_X86="(64)" pulled in by
+    >=app-emulation/libvirt-2.3.0:0/11.1.0= required by (app-emulation/libvirt-glib-5.0.0-r1:0/0::gentoo, installed) USE="introspection vala -gtk-doc -test" ABI_X86="(64)"
+                                 ^^^^^^^^^^                                                                                                                                                                                                                                                                   
+
 NOTE: Use the '--verbose-conflicts' option to display parents omitted above
 
 !!! The slot conflict(s) shown above involve package(s) which may need to
 !!! be rebuilt in order to solve the conflict(s). However, the following
 !!! package(s) cannot be rebuilt for the reason(s) shown:
 
-  (kde-frameworks/kidletime-6.16.0-2:6/6.16::gentoo, installed): ebuild is masked or unavailable
+  (app-emulation/libvirt-11.1.0-r1-2:0/11.1.0::gentoo, installed): ebuild is masked or unavailable
   (kde-frameworks/kwindowsystem-6.16.0-r1-2:6/6.16::gentoo, installed): ebuild is masked or unavailable
+  (kde-frameworks/kidletime-6.16.0-2:6/6.16::gentoo, installed): ebuild is masked or unavailable
 
 
 It may be possible to solve this problem by using package.mask to
@@ -420,12 +471,12 @@ page or refer to the Gentoo Handbook.
  * Error: The above package list contains packages which cannot be
  * installed at the same time on the same system.
 
-  (sys-kernel/gentoo-kernel-bin-6.12.47:6.12.47/6.12.47::gentoo, installed) pulled in by
-    sys-kernel/gentoo-kernel-bin required by @selected 
-
   (sys-kernel/gentoo-kernel-6.12.47-1:6.12.47/6.12.47::gentoo, binary scheduled for merge) pulled in by
     sys-kernel/gentoo-kernel required by @selected 
     ~sys-kernel/gentoo-kernel-6.12.47 required by (virtual/dist-kernel-6.12.47-1:0/6.12.47::gentoo, binary scheduled for merge) USE="" ABI_X86="(64)"
+
+  (sys-kernel/gentoo-kernel-bin-6.12.47:6.12.47/6.12.47::gentoo, installed) pulled in by
+    sys-kernel/gentoo-kernel-bin required by @selected 
 
 
 For more information about Blocked Packages, please refer to the following
@@ -469,16 +520,16 @@ https://wiki.gentoo.org/wiki/Handbook:X86/Working/Portage#Blocked_packages
     =dev-libs/glib-2.84.4 -abi_x86_32
     =dev-libs/glib-2.84.4 -abi_x86_32 -dbus
     =dev-libs/libpcre2-10.46 -abi_x86_32
-    =x11-libs/gtk+-3.24.51 -abi_x86_32 colord sysprof
-    =x11-libs/gtk+-3.24.51 -abi_x86_32
-    =x11-libs/pango-1.57.0 -abi_x86_32 sysprof
-    =x11-libs/pango-1.57.0 -X -abi_x86_32
-    =x11-libs/pango-1.57.0 -abi_x86_32
     =media-libs/tiff-4.7.0-r1 -abi_x86_32
     =media-libs/tiff-4.7.0-r1 -abi_x86_32 lzma -webp zstd
     =media-libs/tiff-4.7.0-r1 -abi_x86_32 -webp
     =media-libs/libwebp-1.5.0 -abi_x86_32 -cpu_flags_x86_sse4_1 -gif -opengl -tiff
     =media-libs/libwebp-1.5.0 -abi_x86_32 -cpu_flags_x86_sse4_1
+    =x11-libs/gtk+-3.24.51 -abi_x86_32 colord sysprof
+    =x11-libs/gtk+-3.24.51 -abi_x86_32
+    =x11-libs/pango-1.57.0 -abi_x86_32 sysprof
+    =x11-libs/pango-1.57.0 -X -abi_x86_32
+    =x11-libs/pango-1.57.0 -abi_x86_32
     =gui-libs/gtk-4.18.6-r1 colord -cpu_flags_x86_f16c gstreamer sysprof
     =gui-libs/gtk-4.18.6-r1 -cpu_flags_x86_f16c
     =gui-libs/gtk-4.18.6-r1 colord -cpu_flags_x86_f16c gstreamer sysprof -wayland
@@ -510,9 +561,9 @@ https://wiki.gentoo.org/wiki/Handbook:X86/Working/Portage#Blocked_packages
     =media-libs/opencv-4.11.0-r1 -avif -cpu_flags_x86_avx -cpu_flags_x86_avx2 -cpu_flags_x86_f16c -cpu_flags_x86_fma3 -cpu_flags_x86_popcnt -cpu_flags_x86_sse3 -cpu_flags_x86_sse4_1 -cpu_flags_x86_sse4_2 -cpu_flags_x86_ssse3 python_targets_python3_12 -webp
     =media-libs/opencv-4.11.0-r1 -avif -cpu_flags_x86_avx -cpu_flags_x86_avx2 -cpu_flags_x86_f16c -cpu_flags_x86_fma3 -cpu_flags_x86_popcnt -cpu_flags_x86_sse3 -cpu_flags_x86_sse4_1 -cpu_flags_x86_sse4_2 -cpu_flags_x86_ssse3 -webp
     =media-libs/opencv-4.11.0-r1 -avif -cpu_flags_x86_avx -cpu_flags_x86_avx2 -cpu_flags_x86_f16c -cpu_flags_x86_fma3 -cpu_flags_x86_popcnt -cpu_flags_x86_sse3 -cpu_flags_x86_sse4_1 -cpu_flags_x86_sse4_2 -cpu_flags_x86_ssse3 -python_targets_python3_13 -webp
+    =media-libs/glm-1.0.1 -cpu_flags_x86_avx -cpu_flags_x86_avx2 -cpu_flags_x86_sse3 -cpu_flags_x86_sse4_1 -cpu_flags_x86_sse4_2 -cpu_flags_x86_ssse3
 
 NOTE: The --binpkg-respect-use=n option will prevent emerge
       from ignoring these binary packages if possible.
       Using --binpkg-respect-use=y will silence this warning.
-┌─[deutchhd@gentoo]-[13:27]
-└─╼[~]-[$]-> 
+gentoo /home/deutchhd # 
